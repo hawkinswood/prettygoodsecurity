@@ -67,6 +67,16 @@ Set up these recommended Page Rules for optimal security:
    - Go to SSL/TLS → Edge Certificates
    - Enable "Always Use HTTPS"
 
+5. **Configure HSTS (HTTP Strict Transport Security)**:
+   - Go to SSL/TLS → Edge Certificates
+   - Under "HSTS", click "Enable HSTS"
+   - Set Max Age to 12 months (31536000 seconds)
+   - Check "Apply HSTS policy to subdomains"
+   - Check "Preload" 
+   - Check "No-Sniff Header"
+   - Click "Save"
+   - Note: This configuration matches our site's _headers file configuration
+
 ## Security Settings Optimization
 
 1. **Enable WAF (Web Application Firewall)**:
