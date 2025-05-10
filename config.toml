@@ -1,0 +1,144 @@
+baseURL = "https://hawkinswood.github.io/prettygoodsecurity/"
+languageCode = "en-us"
+title = "Pretty Good Security"
+theme = "PaperMod"
+
+# Enable Git info for better last modified dates
+enableGitInfo = true
+
+# Build settings for optimization
+[build]
+  writeStats = true
+  
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  minifyOutput = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  # Theme parameters
+  description = "Practical security advice and guides for everyday digital life"
+  author = "Pretty Good Security Team"
+  
+  # Default theme appearance
+  defaultTheme = "auto"
+  
+  # Show reading time
+  ShowReadingTime = true
+  
+  # Show table of contents
+  ShowToc = true
+  
+  # Show breadcrumbs
+  ShowBreadCrumbs = true
+  
+  # Show post navigation
+  ShowPostNavLinks = true
+  
+  # Show code copy buttons
+  ShowCodeCopyButtons = true
+  
+  # Date format
+  DateFormat = "January 2, 2006"
+  
+  # Enable share buttons
+  ShowShareButtons = true
+
+  # Accessibility settings
+  [params.accessibility]
+    highContrast = true
+    focusOutline = true
+
+  # Social media links
+  [params.socialIcons]
+    # Add your social media links here
+
+  # Security headers (implemented via _headers file in static directory)
+  [params.securityHeaders]
+    enabled = true
+
+  # Assets optimization
+  [params.assets]
+    disableFingerprinting = false
+    favicon = "favicon.ico"
+    
+  # Search functionality
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+# Main menu
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "tailscale"
+    name = "Tailscale"
+    url = "/tailscale/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "network"
+    name = "Network Security"
+    url = "/network/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "router"
+    name = "Router Security"
+    url = "/router/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "iphone"
+    name = "iPhone Security"
+    url = "/iphone/"
+    weight = 50
+
+  [[menu.main]]
+    identifier = "best-practices"
+    name = "Best Practices"
+    url = "/best-practices/"
+    weight = 60
+
+  [[menu.main]]
+    identifier = "resources"
+    name = "Resources"
+    url = "/resources/"
+    weight = 70
+
+# Taxonomy settings
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+# Privacy settings
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
