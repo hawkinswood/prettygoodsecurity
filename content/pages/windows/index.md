@@ -10,6 +10,8 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+ShowShareButtons: false
+socialIcons: []
 ---
 
 # Windows Security Guide
