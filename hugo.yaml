@@ -98,31 +98,31 @@ menu:
       weight: 30
     - identifier: tailscale-guide
       name: Tailscale
-      url: /pages/tailscale.html
+      url: /pages/tailscale/
       weight: 40
     - identifier: network-guide
       name: Network
-      url: /pages/network.html
+      url: /pages/network/
       weight: 50
     - identifier: router-guide
       name: Router
-      url: /pages/router.html
+      url: /pages/router/
       weight: 60
     - identifier: iphone-guide
       name: iPhone
-      url: /pages/iphone.html
+      url: /pages/iphone/
       weight: 70
     - identifier: mac-guide
       name: Mac
-      url: /pages/mac.html
+      url: /pages/mac/
       weight: 80
     - identifier: windows-guide
       name: Windows
-      url: /pages/windows.html
+      url: /pages/windows/
       weight: 90
     - identifier: resources-guide
       name: Resources
-      url: /pages/resources.html
+      url: /pages/resources/
       weight: 100
 
 outputs:
