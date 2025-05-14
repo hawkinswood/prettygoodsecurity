@@ -96,33 +96,33 @@ menu:
       name: Search
       url: /search/
       weight: 30
-    - identifier: tailscale
+    - identifier: tailscale-guide
       name: Tailscale
-      url: /pages/tailscale/
+      url: /pages/tailscale.html
       weight: 40
-    - identifier: network
+    - identifier: network-guide
       name: Network
-      url: /pages/network/
+      url: /pages/network.html
       weight: 50
-    - identifier: router
+    - identifier: router-guide
       name: Router
-      url: /pages/router/
+      url: /pages/router.html
       weight: 60
-    - identifier: iphone
+    - identifier: iphone-guide
       name: iPhone
-      url: /pages/iphone/
+      url: /pages/iphone.html
       weight: 70
-    - identifier: mac
+    - identifier: mac-guide
       name: Mac
-      url: /pages/mac/
+      url: /pages/mac.html
       weight: 80
-    - identifier: windows
+    - identifier: windows-guide
       name: Windows
-      url: /pages/windows/
+      url: /pages/windows.html
       weight: 90
-    - identifier: resources
+    - identifier: resources-guide
       name: Resources
-      url: /pages/resources/
+      url: /pages/resources.html
       weight: 100
 
 outputs:
