@@ -94,7 +94,7 @@ menu:
       weight: 20
     - identifier: search
       name: Search
-      url: /search/
+      url: /search
       weight: 30
     - identifier: tailscale-guide
       name: Tailscale
