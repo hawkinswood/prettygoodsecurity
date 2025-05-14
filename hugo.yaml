@@ -96,6 +96,34 @@ menu:
       name: Search
       url: /search/
       weight: 30
+    - identifier: tailscale
+      name: Tailscale
+      url: /pages/tailscale/
+      weight: 40
+    - identifier: network
+      name: Network
+      url: /pages/network/
+      weight: 50
+    - identifier: router
+      name: Router
+      url: /pages/router/
+      weight: 60
+    - identifier: iphone
+      name: iPhone
+      url: /pages/iphone/
+      weight: 70
+    - identifier: mac
+      name: Mac
+      url: /pages/mac/
+      weight: 80
+    - identifier: windows
+      name: Windows
+      url: /pages/windows/
+      weight: 90
+    - identifier: resources
+      name: Resources
+      url: /pages/resources/
+      weight: 100
 
 outputs:
   home:
