@@ -13,6 +13,8 @@ minify:
   disableXML: true
   minifyOutput: true
 
+publishDir: docs
+
 params:
   env: production
   title: Pretty Good Security

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Welcome on Pretty Good Security</title>
+    <link>https://example.com/categories/welcome/</link>
+    <description>Recent content in Welcome on Pretty Good Security</description>
+    <generator>Hugo -- 0.147.3</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 May 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/categories/welcome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to Pretty Good Security</title>
+      <link>https://example.com/posts/welcome/</link>
+      <pubDate>Wed, 14 May 2025 12:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/welcome/</guid>
+      <description>Welcome to our blog about security best practices and modern web development</description>
+    </item>
+  </channel>
+</rss>

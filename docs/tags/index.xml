@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Pretty Good Security</title>
+    <link>https://example.com/tags/</link>
+    <description>Recent content in Tags on Pretty Good Security</description>
+    <generator>Hugo -- 0.147.3</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 May 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security</title>
+      <link>https://example.com/tags/security/</link>
+      <pubDate>Wed, 14 May 2025 12:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Development</title>
+      <link>https://example.com/tags/web-development/</link>
+      <pubDate>Wed, 14 May 2025 12:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/web-development/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
