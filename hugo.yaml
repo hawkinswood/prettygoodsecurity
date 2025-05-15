@@ -84,10 +84,6 @@ taxonomies:
 
 menu:
   main:
-    - identifier: search
-      name: Search
-      url: /search
-      weight: 30
     - identifier: tailscale-guide
       name: Tailscale
       url: /pages/tailscale/
@@ -116,6 +112,10 @@ menu:
       name: Resources
       url: /pages/resources/
       weight: 100
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 30
 
 outputs:
   home:
