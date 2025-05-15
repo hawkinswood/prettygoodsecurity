@@ -51,9 +51,9 @@ params:
     Content: "A secure and modern blog about security best practices"
 
   label:
-    text: "Pretty Good Security"
     icon: "/images/logo.png"
     iconHeight: 35
+    iconWidth: 150
 
   # Security headers configuration
   security:
