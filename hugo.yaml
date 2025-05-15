@@ -38,10 +38,9 @@ params:
   tocopen: false
 
   label:
-    text: ""  # Important: empty string to only show the logo
+    text: " "  # Single space instead of empty string
     icon: "/images/logo.png"
     iconHeight: 35
-    iconWidth: 150
 
   assets:
     favicon: "/images/favicon.png"
@@ -49,9 +48,7 @@ params:
     favicon32x32: "/images/favicon.png"
     apple_touch_icon: "/images/favicon.png"
     disableHLJS: true
-    disableFingerprinting: true
-
-  disableThemeToggle: true  # This ensures the theme toggle doesn't interfere with the logo
+      disableThemeToggle: true  # This ensures the theme toggle doesn't interfere with the logo
 
   profileMode:
     enabled: false
