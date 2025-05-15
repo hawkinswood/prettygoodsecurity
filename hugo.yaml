@@ -1,6 +1,7 @@
 baseURL: "https://hawkinswood.github.io/prettygoodsecurity"
 title: "Pretty Good Security"
-paginate: 5
+pagination:
+  pagerSize: 5
 theme: PaperMod
 
 enableRobotsTXT: true
