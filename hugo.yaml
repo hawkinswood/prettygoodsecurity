@@ -1,19 +1,4 @@
-baseURL: "https://hawkinswood.github.io  label:
-    text: " "  # Single space instead of empty string
-    icon: "/images/logo.png"
-    iconHeight: 35
-
-  assets:
-    favicon: "/images/favicon.png"
-    favicon16x16: "/images/favicon.png"
-    favicon32x32: "/images/favicon.png"
-    apple_touch_icon: "/images/favicon.png"
-    disableHLJS: true
-    disableFingerprinting: true
-
-  disableThemeToggle: true  # This ensures the theme toggle doesn't interfere with the logo
-
-  profileMode:urity"
+baseURL: "https://hawkinswood.github.io/prettygoodsecurity"
 title: "Pretty Good Security"
 theme: PaperMod
 pagination:
@@ -52,18 +37,13 @@ params:
   showtoc: true
   tocopen: false
 
-  label:
-    text: " "  # Single space instead of empty string
-    icon: "/images/logo.png"
-    iconHeight: 35
-
   assets:
     favicon: "/images/favicon.png"
     favicon16x16: "/images/favicon.png"
     favicon32x32: "/images/favicon.png"
     apple_touch_icon: "/images/favicon.png"
     disableHLJS: true
-      disableThemeToggle: true  # This ensures the theme toggle doesn't interfere with the logo
+    disableFingerprinting: true
 
   profileMode:
     enabled: false
