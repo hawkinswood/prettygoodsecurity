@@ -18,7 +18,7 @@ Welcome to our curated collection of security resources. This page features sele
 
 ## Gibson Research Corporation (GRC)
 
-[GRC.COM](https://www.grc.com){target="_blank" rel="noopener"} has been a trusted name in computer security since 1988. Founded by Steve Gibson, the site offers a variety of security tools and services.
+[GRC.COM](https://www.grc.com "GRC.COM"){:target="_blank" rel="noopener"} has been a trusted name in computer security since 1988. Founded by Steve Gibson, the site offers a variety of security tools and services.
 
 ### Top Security Tools (By Current Popularity)
 
@@ -27,7 +27,7 @@ Welcome to our curated collection of security resources. This page features sele
    - Over 9.5 million total downloads
    - Advanced DNS benchmark utility
    - Compare DNS server performance and reliability
-   - [Download DNSBench](https://www.grc.com/dns/benchmark.htm){target="_blank" rel="noopener"}
+   - [Download DNSBench](https://www.grc.com/dns/benchmark.htm "Download DNSBench"){:target="_blank" rel="noopener"}
 
 2. **ValiDrive**
    - Current Rank: #2 (Historical Rank: #13)
