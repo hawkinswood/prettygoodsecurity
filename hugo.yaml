@@ -37,14 +37,16 @@ params:
   showtoc: true
   tocopen: false
 
+  label:
+    icon: "/images/logo.png"
+    iconHeight: 35
+
   assets:
     favicon: "/images/favicon.png"
     favicon16x16: "/images/favicon.png"
     favicon32x32: "/images/favicon.png"
     apple_touch_icon: "/images/favicon.png"
-    logo:
-      path: "/images/logo.png"
-      height: 35
+    disableHLJS: true
 
   profileMode:
     enabled: false
