@@ -64,10 +64,6 @@ params:
     Title: "Welcome to Pretty Good Security"
     Content: "A blog dedicated to security best practices and modern web development"
 
-  socialIcons:
-    - name: github
-      url: "https://github.com/yourusername"
-
   # Cache configuration
   caches:
     assets:
