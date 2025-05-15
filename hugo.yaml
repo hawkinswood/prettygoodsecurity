@@ -111,7 +111,7 @@ menu:
     - identifier: search
       name: Search
       url: /search
-      weight: 30
+      weight: 110
 
 outputs:
   home:
