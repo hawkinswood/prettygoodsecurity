@@ -22,7 +22,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "/images/prettygoodsecurity.png"
+    image: "/prettygoodsecurity/images/prettygoodsecurity.png"
     alt: "Welcome Banner"
     caption: "Welcome to Pretty Good Security"
     relative: false
