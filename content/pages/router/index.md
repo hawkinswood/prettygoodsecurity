@@ -13,5 +13,3 @@ comments: false
 ShowShareButtons: false
 socialIcons: []
 ---
-
-# Router Security Guide
