@@ -38,8 +38,10 @@ params:
   tocopen: false
 
   label:
+    text: ""  # Important: empty string to only show the logo
     icon: "/images/logo.png"
     iconHeight: 35
+    iconWidth: 150
 
   assets:
     favicon: "/images/favicon.png"
@@ -47,6 +49,9 @@ params:
     favicon32x32: "/images/favicon.png"
     apple_touch_icon: "/images/favicon.png"
     disableHLJS: true
+    disableFingerprinting: true
+
+  disableThemeToggle: true  # This ensures the theme toggle doesn't interfere with the logo
 
   profileMode:
     enabled: false
@@ -71,13 +76,6 @@ params:
       - key: "Permissions-Policy"
         value: "camera=(), microphone=(), geolocation=()"
 
-  # Search configuration
-  assets:
-    disableFingerprinting: true
-  
-  profileMode:
-    enabled: false
-    
   mainSections:
     - posts
     
