@@ -18,7 +18,7 @@ Welcome to our curated collection of security resources. This page features sele
 
 ## Gibson Research Corporation (GRC)
 
-[GRC.COM](https://www.grc.com) has been a trusted name in computer security since 1988. Founded by Steve Gibson, the site offers a variety of security tools and services.
+[GRC.COM](https://www.grc.com){target="_blank" rel="noopener"} has been a trusted name in computer security since 1988. Founded by Steve Gibson, the site offers a variety of security tools and services.
 
 ### Free Security Testing Tools
 
@@ -27,19 +27,19 @@ Welcome to our curated collection of security resources. This page features sele
    - Over 107 million system tests performed
    - Tests for Internet vulnerabilities and port security
    - Features UPnP Exposure Testing
-   - [Access ShieldsUP!](https://www.grc.com/x/ne.dll?bh0bkyd2)
+   - [Access ShieldsUP!](https://www.grc.com/x/ne.dll?bh0bkyd2){target="_blank" rel="noopener"}
 
 2. **LeakTest**
    - Over 8.2 million downloads
    - Tests personal firewall security against Trojan program techniques
    - Essential for verifying firewall effectiveness
-   - [Download LeakTest](https://www.grc.com/lt/leaktest.htm)
+   - [Download LeakTest](https://www.grc.com/lt/leaktest.htm){target="_blank" rel="noopener"}
 
 3. **SecurAble**
    - Analyzes processor security features
    - Checks for hardware virtualization, DEP, and 64-bit capabilities
    - Quick assessment of CPU security capabilities
-   - [Download SecurAble](https://www.grc.com/securable.htm)
+   - [Download SecurAble](https://www.grc.com/securable.htm){target="_blank" rel="noopener"}
 
 ### System Protection Tools
 
@@ -48,19 +48,19 @@ Welcome to our curated collection of security resources. This page features sele
    - Disables dangerous Universal Plug and Play service
    - FBI-recommended security measure
    - Compatible with all Windows versions
-   - [Download UnPlug n' Pray](https://www.grc.com/unpnp/unpnp.htm)
+   - [Download UnPlug n' Pray](https://www.grc.com/unpnp/unpnp.htm){target="_blank" rel="noopener"}
 
 2. **DCOMbobulator**
    - Over 1.9 million downloads
    - Verifies Microsoft's DCOM patch effectiveness
    - Allows safe disabling of unused DCOM services
-   - [Download DCOMbobulator](https://www.grc.com/freeware/dcom.htm)
+   - [Download DCOMbobulator](https://www.grc.com/freeware/dcom.htm){target="_blank" rel="noopener"}
 
 3. **Shoot The Messenger**
    - Over 2.4 million downloads
    - Stops Windows Messenger pop-up spam
    - Enhances system security by blocking port 135 exploits
-   - [Download Shoot The Messenger](https://www.grc.com/stm/shootthemessenger.htm)
+   - [Download Shoot The Messenger](https://www.grc.com/stm/shootthemessenger.htm){target="_blank" rel="noopener"}
 
 ### Password and Authentication Tools
 
@@ -68,12 +68,12 @@ Welcome to our curated collection of security resources. This page features sele
    - Over 37 million uses
    - Generates maximum-entropy secure passwords
    - Ideal for WEP, WPA, VPN keys
-   - [Access Perfect Passwords](https://www.grc.com/passwords.htm)
+   - [Access Perfect Passwords](https://www.grc.com/passwords.htm){target="_blank" rel="noopener"}
 
 2. **Password Haystacks**
    - Tests password strength against cracking attempts
    - Analyzes password patterns and complexity
-   - [Test Your Password](https://www.grc.com/haystack.htm)
+   - [Test Your Password](https://www.grc.com/haystack.htm){target="_blank" rel="noopener"}
 
 ### Network and Server Tools
 
@@ -81,12 +81,12 @@ Welcome to our curated collection of security resources. This page features sele
    - Over 1 million downloads
    - Identifies web server software for security assessment
    - Essential for server security verification
-   - [Download ID Serve](https://www.grc.com/id/idserve.htm)
+   - [Download ID Serve](https://www.grc.com/id/idserve.htm){target="_blank" rel="noopener"}
 
 2. **HTTPS Interception Detection**
    - Detects if your HTTPS connections are being intercepted
    - Identifies man-in-the-middle attacks
-   - [Check HTTPS Security](https://www.grc.com/fingerprints.htm)
+   - [Check HTTPS Security](https://www.grc.com/fingerprints.htm){target="_blank" rel="noopener"}
 
 ### System Maintenance Tools
 
@@ -94,13 +94,13 @@ Welcome to our curated collection of security resources. This page features sele
    - Over 1.3 million downloads
    - Windows command utility for system management
    - Features monitor control, audio settings, and screen saver functions
-   - [Download Wizmo](https://www.grc.com/wizmo/wizmo.htm)
+   - [Download Wizmo](https://www.grc.com/wizmo/wizmo.htm){target="_blank" rel="noopener"}
 
 2. **SpinRite** (Commercial)
    - Industry-standard data recovery tool
    - Supports all file systems and operating systems
    - Preventive maintenance and data recovery
-   - [Learn More About SpinRite](https://www.grc.com/sr/spinrite.htm)
+   - [Learn More About SpinRite](https://www.grc.com/sr/spinrite.htm){target="_blank" rel="noopener"}
 
 ### Legacy Security Tools
 
@@ -108,21 +108,21 @@ Welcome to our curated collection of security resources. This page features sele
    - Original anti-spyware tool
    - Detects and removes business spyware
    - Historical significance in privacy protection
-   - [Learn About OptOut](https://www.grc.com/optout.htm)
+   - [Learn About OptOut](https://www.grc.com/optout.htm){target="_blank" rel="noopener"}
 
 2. **FIX-CIH**
    - Recovery utility for Chernobyl virus
    - Complete system recovery tool
-   - [Access FIX-CIH](https://www.grc.com/cih/cih.htm)
+   - [Access FIX-CIH](https://www.grc.com/cih/cih.htm){target="_blank" rel="noopener"}
 
 ### Additional GRC Resources
-- [HTTPS Interception Detection](https://www.grc.com/fingerprints.htm): Check if your connections are being intercepted
+- [HTTPS Interception Detection](https://www.grc.com/fingerprints.htm){target="_blank" rel="noopener"}: Check if your connections are being intercepted
 - Regular security research and updates
 - Comprehensive documentation and guides
 
 ## Router Security
 
-[RouterSecurity.org](https://routersecurity.org) is dedicated to helping users secure their routers, which are often the first line of defense in home and small business networks. Created by security expert Michael Horowitz, this comprehensive resource emphasizes the importance of router security in today's connected world.
+[RouterSecurity.org](https://routersecurity.org){target="_blank" rel="noopener"} is dedicated to helping users secure their routers, which are often the first line of defense in home and small business networks. Created by security expert Michael Horowitz, this comprehensive resource emphasizes the importance of router security in today's connected world.
 
 ### Why Router Security Matters
 
@@ -178,4 +178,4 @@ The site also provides advanced guidance on:
    - Choosing devices with good update histories
    - Understanding the importance of business-class routers
 
-For comprehensive router security documentation, tools, and the latest updates, visit [RouterSecurity.org](https://routersecurity.org). The site is regularly updated with new security information and maintains a "Routers in the News" section for current security issues.
+For comprehensive router security documentation, tools, and the latest updates, visit [RouterSecurity.org](https://routersecurity.org){target="_blank" rel="noopener"}. The site is regularly updated with new security information and maintains a "Routers in the News" section for current security issues.
