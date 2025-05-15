@@ -5,21 +5,27 @@ description: "Welcome to our blog about security best practices and modern web d
 tags: ["security", "web development"]
 categories: ["welcome"]
 author: "Your Name"
-showToc: true
-TocOpen: false
+weight: 1
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+showtoc: true
+tocopen: false
 draft: false
 hidemeta: false
 comments: false
-disableShare: true
-disableHLJS: false
-hideSummary: true
+ShowShareButtons: false
 searchHidden: false
-ShowReadingTime: false
-ShowBreadCrumbs: false
-ShowPostNavLinks: false
-ShowWordCount: false
-ShowRssButtonInSectionTermList: false
-UseHugoToc: true
+hideSummary: false
+cover:
+    image: "/images/welcome-banner.jpg"
+    alt: "Welcome Banner"
+    caption: ""
+    relative: false
+    hidden: false
 ---
 
 ## Welcome to Pretty Good Security

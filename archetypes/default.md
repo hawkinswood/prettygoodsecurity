@@ -1,5 +1,29 @@
 ---
-date: '{{ .Date }}'
+title: "{{ replace .File.ContentBaseName "-" " " | title }}"
+date: {{ .Date }}
+description: ""
+tags: []
+categories: []
+author: "Your Name"
+weight: 1
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+showtoc: true
+tocopen: false
 draft: true
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+hidemeta: false
+comments: false
+ShowShareButtons: false
+searchHidden: false
+hideSummary: false
+cover:
+    image: ""
+    alt: ""
+    caption: ""
+    relative: false
+    hidden: false
 ---
