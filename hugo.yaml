@@ -59,7 +59,10 @@ params:
   
   profileMode:
     enabled: false
-
+    
+  mainSections:
+    - posts
+    
   # Cache configuration
   caches:
     assets:
