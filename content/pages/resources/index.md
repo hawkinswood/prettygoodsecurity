@@ -122,28 +122,60 @@ Welcome to our curated collection of security resources. This page features sele
 
 ## Router Security
 
-[RouterSecurity.org](https://routersecurity.org) is dedicated to helping users secure their routers, which are often the first line of defense in home and small business networks.
+[RouterSecurity.org](https://routersecurity.org) is dedicated to helping users secure their routers, which are often the first line of defense in home and small business networks. Created by security expert Michael Horowitz, this comprehensive resource emphasizes the importance of router security in today's connected world.
 
-### Router Security Resources
+### Why Router Security Matters
 
-The site offers comprehensive guidance on:
+Most people buy a router, set it up, and ignore it for years. However, this approach can be dangerous because:
 
-- Default password management
-- Router firmware updates
-- Network security best practices
-- VPN configuration
-- Guest network setup
-- DNS security
-- Network monitoring
+- If a router gets infected with malware or is maliciously reconfigured, most users would never know
+- There is no anti-virus software for routers
+- Router software/firmware often has significant security flaws affecting millions of devices
+- Compromised routers can lead to serious security breaches
 
-For the most up-to-date router security information and detailed guides, visit [RouterSecurity.org](https://routersecurity.org).
+### Essential Router Security Checklist
 
-## Recommended Best Practices
+RouterSecurity.org provides a comprehensive security checklist. Here are the most critical steps:
 
-When using these resources, keep in mind:
+1. **Password Security**
+   - Change the default administrative password
+   - Use strong Wi-Fi passwords (minimum 16 characters)
+   - Change default network names (SSIDs)
 
-1. Regularly check for updates and new security advisories
-2. Follow recommended security practices from both sources
-3. Always verify your security settings after making changes
-4. Keep documentation of your security configurations
-5. Regularly test your security measures using these tools
+2. **Network Protection**
+   - Enable WPA2 (with AES) or WPA3 encryption
+   - Disable WPS (Wi-Fi Protected Setup)
+   - Turn off UPnP (Universal Plug and Play)
+   - Use password-protected Guest Networks for IoT devices
+
+3. **Administrative Security**
+   - Disable Remote Administration
+   - Verify no unwanted port forwarding exists
+   - Consider disabling IPv6 if not needed
+
+4. **Maintenance Best Practices**
+   - Regularly check for and install firmware updates
+   - Replace routers that no longer receive updates
+   - Back up router configurations after changes
+
+### Additional Security Measures
+
+The site also provides advanced guidance on:
+
+1. **Network Segmentation**
+   - Creating separate networks for different purposes
+   - Isolating IoT devices from main network
+   - Setting up secure guest access
+
+2. **Monitoring & Maintenance**
+   - Regular router reboots for security
+   - Checking attached devices list
+   - Monitoring DNS settings
+   - Reviewing router logs
+
+3. **Router Selection**
+   - Evaluating router security features
+   - Choosing devices with good update histories
+   - Understanding the importance of business-class routers
+
+For comprehensive router security documentation, tools, and the latest updates, visit [RouterSecurity.org](https://routersecurity.org). The site is regularly updated with new security information and maintains a "Routers in the News" section for current security issues.
