@@ -37,6 +37,24 @@ params:
   showtoc: true
   tocopen: false
 
+  assets:
+    favicon: "/images/favicon.png"
+    favicon16x16: "/images/favicon.png"
+    favicon32x32: "/images/favicon.png"
+    apple_touch_icon: "/images/favicon.png"
+
+  profileMode:
+    enabled: false
+
+  homeInfoParams:
+    Title: "Pretty Good Security"
+    Content: "A secure and modern blog about security best practices"
+
+  label:
+    text: "Pretty Good Security"
+    icon: "/images/logo.png"
+    iconHeight: 35
+
   # Security headers configuration
   security:
     headers:
