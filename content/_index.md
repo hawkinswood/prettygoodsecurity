@@ -12,9 +12,3 @@ Welcome to Pretty Good Security, your comprehensive guide to modern security pra
 - 🛠️ Security Tools and Resources
 
 ## Latest Guides
-
-Our most recent security guides and articles are listed below. Each guide provides detailed, actionable steps to improve your security posture.
-
-Feel free to explore our categories or use the search function to find specific security topics. Our guides are regularly updated to reflect the latest security best practices and technologies.
-
----
