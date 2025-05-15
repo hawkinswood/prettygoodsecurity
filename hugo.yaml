@@ -1,8 +1,7 @@
 baseURL: "https://hawkinswood.github.io/prettygoodsecurity"
 title: "Pretty Good Security"
+paginate: 5
 theme: PaperMod
-pagination:
-  pagerSize: 5
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -19,68 +18,74 @@ params:
   description: "A secure and modern blog about security best practices"
   keywords: [Blog, Security, Best Practices]
   author: Your Name
+  images: ["/images/logo.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto
+  disableThemeToggle: false
   ShowReadingTime: true
   ShowShareButtons: false
-  ShowPostNavLinks: false
+  ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowWordCount: false
+  ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
+  disableAnchoredHeadings: false
   comments: false
   hidemeta: false
   hideSummary: false
   showtoc: true
   tocopen: false
+  ShowFullTextinRSS: true
 
   assets:
     favicon: "/images/favicon.png"
     favicon16x16: "/images/favicon.png"
     favicon32x32: "/images/favicon.png"
     apple_touch_icon: "/images/favicon.png"
+    safari_pinned_tab: "/images/favicon.png"
+    theme_color: "#fff"
+    msapplication_TileColor: "#fff"
     disableHLJS: true
     disableFingerprinting: true
 
   profileMode:
     enabled: false
+    title: Pretty Good Security
+    subtitle: "A secure and modern blog about security best practices"
+    imageUrl: "/images/logo.png"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: Pretty Good Security Logo
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
 
-  # Regular mode home settings
-  hideEntryNavigation: true
-  hideSummary: true
-  showtoc: false
-  disableSpecial1stPost: true # Disable special handling of first post
+  # Home info settings
+  homeInfoParams:
+    Title: "Welcome to Pretty Good Security"
+    Content: >
+      A blog dedicated to sharing security best practices and guides
 
-  # Security headers configuration
-  security:
-    headers:
-      - key: "Content-Security-Policy"
-        value: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data: https:;"
-      - key: "X-Frame-Options"
-        value: "DENY"
-      - key: "X-Content-Type-Options"
-        value: "nosniff"
-      - key: "Referrer-Policy"
-        value: "strict-origin-when-cross-origin"
-      - key: "Strict-Transport-Security"
-        value: "max-age=31536000; includeSubDomains"
-      - key: "Permissions-Policy"
-        value: "camera=(), microphone=(), geolocation=()"
+  cover:
+    linkFullImages: true
+    responsiveImages: true
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
 
-  mainSections:
-    - posts
-    
-  # Cache configuration
-  caches:
-    assets:
-      dir: ":cacheDir/_gen"
-      maxAge: "720h"
-    images:
-      dir: ":cacheDir/images"
-      maxAge: "720h"
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
 
 taxonomies:
   category: categories
@@ -127,3 +132,17 @@ outputs:
     - HTML
     - RSS
     - JSON # Required for search functionality
+
+# Security headers (moved to server config)
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^CI$
+
+markup:
+  highlight:
+    noClasses: false
+    lineNos: true
+    lineNumbersInTable: true
+    tabWidth: 4
