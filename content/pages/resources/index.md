@@ -8,7 +8,7 @@ author: "Your Name"
 showToc: true
 TocOpen: false
 draft: false
-hidemeta: false
+hidemeta: true
 comments: false
 ShowShareButtons: false
 socialIcons: []
