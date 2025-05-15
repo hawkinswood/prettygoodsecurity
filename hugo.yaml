@@ -42,6 +42,9 @@ params:
     favicon16x16: "/images/favicon.png"
     favicon32x32: "/images/favicon.png"
     apple_touch_icon: "/images/favicon.png"
+    logo:
+      path: "/images/logo.png"
+      height: 35
 
   profileMode:
     enabled: false
@@ -49,11 +52,6 @@ params:
   homeInfoParams:
     Title: "Pretty Good Security"
     Content: "A secure and modern blog about security best practices"
-
-  label:
-    icon: "/images/logo.png"
-    iconHeight: 35
-    iconWidth: 150
 
   # Security headers configuration
   security:
