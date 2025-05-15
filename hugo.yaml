@@ -60,10 +60,6 @@ params:
   profileMode:
     enabled: false
 
-  homeInfoParams:
-    Title: "Welcome to Pretty Good Security"
-    Content: "A blog dedicated to security best practices and modern web development"
-
   # Cache configuration
   caches:
     assets:
