@@ -10,5 +10,3 @@ Welcome to Pretty Good Security, your comprehensive guide to modern security pra
 - 📱 Mobile Device Security
 - 💻 Desktop Security
 - 🛠️ Security Tools and Resources
-
-## Latest Guides

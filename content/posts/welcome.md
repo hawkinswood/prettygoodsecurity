@@ -10,22 +10,16 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-canonicalURL: "https://example.com/posts/welcome/"
-disableShare: false
+disableShare: true
 disableHLJS: false
-hideSummary: false
+hideSummary: true
 searchHidden: false
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
-ShowRssButtonInSectionTermList: true
+ShowReadingTime: false
+ShowBreadCrumbs: false
+ShowPostNavLinks: false
+ShowWordCount: false
+ShowRssButtonInSectionTermList: false
 UseHugoToc: true
-cover:
-    image: "/prettygoodsecurity/images/prettygoodsecurity.png"
-    alt: "Welcome Banner"
-    caption: "Welcome to Pretty Good Security"
-    relative: false
 ---
 
 ## Welcome to Pretty Good Security
