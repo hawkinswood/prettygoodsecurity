@@ -54,10 +54,6 @@ params:
   showtoc: false
   disableSpecial1stPost: true # Disable special handling of first post
 
-  homeInfoParams:
-    Title: "Pretty Good Security"
-    Content: "A secure and modern blog about security best practices"
-
   # Security headers configuration
   security:
     headers:
