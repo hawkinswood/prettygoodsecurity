@@ -5,13 +5,27 @@ description: "Curated list of security tools, guides, and references"
 tags: ["resources", "tools", "guides", "references"]
 categories: ["resources"]
 author: "Your Name"
-showToc: true
-TocOpen: true
+weight: 1
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+showtoc: true
+tocopen: true
 draft: false
-hidemeta: true
+hidemeta: false
 comments: false
 ShowShareButtons: false
-socialIcons: []
+searchHidden: false
+hideSummary: false
+cover:
+    image: ""
+    alt: ""
+    caption: ""
+    relative: false
+    hidden: false
 ---
 
 Welcome to our curated collection of security resources. This page features selected tools and guides from trusted sources in the security community.

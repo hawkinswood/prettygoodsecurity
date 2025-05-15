@@ -5,11 +5,25 @@ description: "Best practices for securing your router and network gateway"
 tags: ["router", "networking", "security", "gateway"]
 categories: ["network-security"]
 author: "Your Name"
-showToc: true
-TocOpen: false
+weight: 1
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+showtoc: true
+tocopen: false
 draft: false
 hidemeta: false
 comments: false
 ShowShareButtons: false
-socialIcons: []
+searchHidden: false
+hideSummary: false
+cover:
+    image: ""
+    alt: ""
+    caption: ""
+    relative: false
+    hidden: false
 ---

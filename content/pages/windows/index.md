@@ -5,13 +5,27 @@ description: "Security best practices for Windows operating systems"
 tags: ["windows", "microsoft", "security"]
 categories: ["device-security"]
 author: "Your Name"
-showToc: true
-TocOpen: false
+weight: 1
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+showtoc: true
+tocopen: false
 draft: false
 hidemeta: false
 comments: false
 ShowShareButtons: false
-socialIcons: []
+searchHidden: false
+hideSummary: false
+cover:
+    image: ""
+    alt: ""
+    caption: ""
+    relative: false
+    hidden: false
 ---
 
 # Windows Security Guide
