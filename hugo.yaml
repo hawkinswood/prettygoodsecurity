@@ -23,7 +23,7 @@ params:
   defaultTheme: auto
   ShowReadingTime: true
   ShowShareButtons: false
-  ShowPostNavLinks: true
+  ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowWordCount: true
