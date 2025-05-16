@@ -27,5 +27,3 @@ cover:
     relative: false
     hidden: false
 ---
-
-# Windows Security Guide
