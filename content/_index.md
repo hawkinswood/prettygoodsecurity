@@ -20,5 +20,4 @@ Welcome to Pretty Good Security, your comprehensive guide to modern security pra
 - 💻 Desktop/Laptop Security
 - 🛠️ Security Tools and Resources
 
-
-![Pretty Good Security logo](/images/prettygoodsecurity.png)
+![Pretty Good Security logo](https://hawkinswood.github.io/prettygoodsecurity/images/prettygoodsecurity.png)
