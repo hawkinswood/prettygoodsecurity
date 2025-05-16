@@ -31,11 +31,11 @@ params:
   ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
-  disableSpecial1stPost: false
+  disableSpecial1stPost: true
   disableScrollToTop: false
   disableAnchoredHeadings: false
   comments: false
-  hidemeta: false
+  hidemeta: true
   hideSummary: false
   showtoc: true
   tocopen: false
@@ -67,7 +67,7 @@ params:
         url: tags
 
   # Home info settings
-  homeInfoParams:
+  # homeInfoParams:
     Title: "Welcome to Pretty Good Security"
     Content: >
       A blog dedicated to sharing security best practices and guides
