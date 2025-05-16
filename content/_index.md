@@ -8,7 +8,7 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: false
-hidemeta: false
+hidemeta: true
 comments: false
 ---
 

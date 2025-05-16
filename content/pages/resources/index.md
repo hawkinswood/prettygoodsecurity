@@ -15,7 +15,7 @@ UseHugoToc: true
 showtoc: true
 tocopen: true
 draft: false
-hidemeta: false
+hidemeta: true
 comments: false
 ShowShareButtons: false
 searchHidden: false
