@@ -17,5 +17,8 @@ Welcome to Pretty Good Security, your comprehensive guide to modern security pra
 - 🔒 Network Security
 - 🌐 VPN Solutions (like Tailscale)
 - 📱 Mobile Device Security
-- 💻 Desktop Security
+- 💻 Desktop/Laptop Security
 - 🛠️ Security Tools and Resources
+
+
+![Pretty Good Security logo](/images/prettygoodsecurity.png)
