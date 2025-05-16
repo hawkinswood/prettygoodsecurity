@@ -69,11 +69,11 @@ params:
       - name: Tags
         url: tags
 
-  # Home info settings
-  # homeInfoParams:
-    Title: "Welcome to Pretty Good Security"
-    Content: >
-      A blog dedicated to sharing security best practices and guides
+# Home info settings
+# homeInfoParams:
+#   Title: "Welcome to Pretty Good Security"
+#   Content: >
+#     A blog dedicated to sharing security best practices and guides
 
   cover:
     linkFullImages: true
