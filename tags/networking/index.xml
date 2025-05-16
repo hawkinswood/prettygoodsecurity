@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Networking on Pretty Good Security</title>
+    <link>https://hawkinswood.github.io/prettygoodsecurity/tags/networking/</link>
+    <description>Recent content in Networking on Pretty Good Security</description>
+    <image>
+      <title>Pretty Good Security</title>
+      <url>https://hawkinswood.github.io/images/logo.png</url>
+      <link>https://hawkinswood.github.io/images/logo.png</link>
+    </image>
+    <generator>Hugo -- 0.147.3</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 May 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hawkinswood.github.io/prettygoodsecurity/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network Security Guide</title>
+      <link>https://hawkinswood.github.io/prettygoodsecurity/pages/network/</link>
+      <pubDate>Wed, 14 May 2025 12:00:00 +0000</pubDate>
+      <guid>https://hawkinswood.github.io/prettygoodsecurity/pages/network/</guid>
+      <description>Comprehensive guide to securing your network infrastructure</description>
+    </item>
+    <item>
+      <title>Router Security Guide</title>
+      <link>https://hawkinswood.github.io/prettygoodsecurity/pages/router/</link>
+      <pubDate>Wed, 14 May 2025 12:00:00 +0000</pubDate>
+      <guid>https://hawkinswood.github.io/prettygoodsecurity/pages/router/</guid>
+      <description>Best practices for securing your router and network gateway</description>
+    </item>
+    <item>
+      <title>Tailscale Security Guide</title>
+      <link>https://hawkinswood.github.io/prettygoodsecurity/pages/tailscale/</link>
+      <pubDate>Wed, 14 May 2025 12:00:00 +0000</pubDate>
+      <guid>https://hawkinswood.github.io/prettygoodsecurity/pages/tailscale/</guid>
+      <description>Security best practices and configurations for Tailscale</description>
+      <content:encoded><![CDATA[<h1 id="tailscale-security-guide">Tailscale Security Guide</h1>
+<p>Tailscale is a modern, secure networking solution that makes device connectivity seamless and secure without the complexity of traditional VPNs. This guide will help you understand Tailscale&rsquo;s features, benefits, and best practices for implementation.</p>
+<h2 id="what-is-tailscale">What is Tailscale?</h2>
+<p>Tailscale is a zero-config VPN that creates a secure network between your devices. It uses WireGuard® protocol for fast, modern, and secure connections, making it an ideal solution for both personal and enterprise use.</p>
+<p>Key features include:</p>
+<ul>
+<li>Zero-configuration setup</li>
+<li>End-to-end encryption</li>
+<li>No central point of failure</li>
+<li>NAT traversal capabilities</li>
+<li>Multi-platform support</li>
+</ul>
+<h2 id="core-benefits">Core Benefits</h2>
+<h3 id="1-secure-access-anywhere">1. Secure Access Anywhere</h3>
+<ul>
+<li>Connect to your resources from any location</li>
+<li>Access your homelab, personal devices, and dev environments</li>
+<li>No need to configure firewall rules or manage complex network settings</li>
+</ul>
+<h3 id="2-enterprise-grade-security">2. Enterprise-Grade Security</h3>
+<ul>
+<li>WireGuard® protocol for all connections</li>
+<li>End-to-end encryption by default</li>
+<li>Access Control Lists (ACLs) for granular permission management</li>
+<li>Single Sign-On (SSO) integration</li>
+<li>Security audits by Latacora</li>
+</ul>
+<h3 id="3-zero-configuration-vpn">3. Zero Configuration VPN</h3>
+<ul>
+<li>No complex setup required</li>
+<li>Automatic key rotation and management</li>
+<li>Works across different networks and cloud providers</li>
+<li>Built-in NAT traversal</li>
+</ul>
+<h2 id="key-use-cases">Key Use Cases</h2>
+<h3 id="remote-access">Remote Access</h3>
+<ul>
+<li>Secure access to company resources</li>
+<li>Development environment connectivity</li>
+<li>Remote device management</li>
+<li>Access to internal tools and services</li>
+</ul>
+<h3 id="site-to-site-networking">Site-to-Site Networking</h3>
+<ul>
+<li>Connect multiple offices or locations</li>
+<li>Link cloud environments (AWS, GCP, Azure)</li>
+<li>Bridge different networks securely</li>
+<li>No port forwarding required</li>
+</ul>
+<h3 id="multi-cloud-networking">Multi-Cloud Networking</h3>
+<ul>
+<li>Connect resources across different cloud providers</li>
+<li>Secure access to cloud services</li>
+<li>Simplified cloud resource management</li>
+<li>Consistent networking across providers</li>
+</ul>
+<h2 id="security-features">Security Features</h2>
+<h3 id="1-access-controls">1. Access Controls</h3>
+<ul>
+<li>Granular access management through ACLs</li>
+<li>Role-based access control</li>
+<li>Group-based permissions</li>
+<li>Principle of least privilege implementation</li>
+</ul>
+<h3 id="2-authentication">2. Authentication</h3>
+<ul>
+<li>Integration with identity providers</li>
+<li>MFA support</li>
+<li>SSO capabilities</li>
+<li>Centralized user management</li>
+</ul>
+<h3 id="3-encryption">3. Encryption</h3>
+<ul>
+<li>WireGuard® protocol for all connections</li>
+<li>End-to-end encryption</li>
+<li>Perfect forward secrecy</li>
+<li>Modern cryptographic standards</li>
+</ul>
+<h2 id="platform-support">Platform Support</h2>
+<p>Tailscale works across multiple platforms and environments:</p>
+<ul>
+<li>Windows, macOS, and Linux</li>
+<li>iOS and Android mobile devices</li>
+<li>Docker containers</li>
+<li>Kubernetes clusters</li>
+<li>IoT devices</li>
+<li>Cloud platforms (AWS, GCP, Azure)</li>
+</ul>
+<h2 id="best-practices">Best Practices</h2>
+<h3 id="1-implementation">1. Implementation</h3>
+<ul>
+<li>Use MagicDNS for simplified naming</li>
+<li>Implement proper ACLs from the start</li>
+<li>Enable device authorization controls</li>
+<li>Regular security audits</li>
+</ul>
+<h3 id="2-management">2. Management</h3>
+<ul>
+<li>Keep clients updated</li>
+<li>Monitor access logs</li>
+<li>Regular ACL reviews</li>
+<li>Implement proper user offboarding</li>
+</ul>
+<h3 id="3-security">3. Security</h3>
+<ul>
+<li>Use strong authentication methods</li>
+<li>Enable MFA where possible</li>
+<li>Regular security reviews</li>
+<li>Monitor for unusual activity</li>
+</ul>
+<h2 id="enterprise-features">Enterprise Features</h2>
+<p>For business environments, Tailscale offers additional features:</p>
+<ul>
+<li>Audit logging</li>
+<li>SAML/SSO integration</li>
+<li>Advanced ACL management</li>
+<li>Custom DNS configuration</li>
+<li>Session recording</li>
+<li>Enterprise support</li>
+</ul>
+<h2 id="getting-started">Getting Started</h2>
+<ol>
+<li>Sign up at <a href="https://tailscale.com" target="_blank" rel="noopener">Tailscale.com</a>
+</li>
+<li>Install Tailscale on your devices</li>
+<li>Configure your identity provider (if applicable)</li>
+<li>Set up ACLs for access control</li>
+<li>Start connecting your devices securely</li>
+</ol>
+<p>Tailscale combines the security of a traditional VPN with modern usability, making it an excellent choice for both individual users and enterprises looking for secure, efficient network connectivity.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
