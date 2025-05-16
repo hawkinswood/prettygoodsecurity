@@ -18,7 +18,7 @@ params:
   title: Pretty Good Security
   description: "A secure and modern blog about security best practices"
   keywords: [Blog, Security, Best Practices]
-  author: Your Name
+  author: Hawkins Wood
   images: ["/images/logo.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto
