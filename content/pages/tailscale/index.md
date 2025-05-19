@@ -21,6 +21,8 @@ ShowShareButtons: false
 searchHidden: false
 ---
 
+> **Note**: For a detailed verification of this guide's technical accuracy against official Tailscale documentation, see our [Tailscale Guide Accuracy Evaluation](../tailscale/accuracy-evaluation).
+
 ## Introduction
 
 Tailscale is a zero-configuration mesh VPN service that connects your devices in a secure peer-to-peer network (a tailnet) using the WireGuard® protocol. It is designed to be easy to set up and works with your existing single sign-on identity (like your Google, Microsoft, or GitHub account) for authentication. All data between your devices is end-to-end encrypted using device keys; the Tailscale coordination servers never see your private traffic.
