@@ -54,6 +54,8 @@ params:
     msapplication_TileColor: "#fff"
     disableHLJS: true
     disableFingerprinting: true
+    css:
+      - css/custom.css
 
   profileMode:
     enabled: false
