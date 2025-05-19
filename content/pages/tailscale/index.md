@@ -45,7 +45,7 @@ Tailscale is a zero-configuration mesh VPN service that connects your devices in
 
 This guide will walk you through using Tailscale for personal/home purposes. We cover installation on all major platforms (Windows, macOS, Linux, Android, iOS), initial setup of your personal tailnet, and key features like managing devices and keys, configuring access controls, using subnet routers and exit nodes, MagicDNS, device sharing, Tailscale SSH, and more. We'll also discuss typical use cases (like remote access to your home network) and provide tips on privacy, security, and troubleshooting.
 
-## Creating an Account and Your tailnet
+## Creating an Account and Your Tailnet
 
 Before installing Tailscale, you should create a Tailscale account (which also creates your personal tailnet). A tailnet is Tailscale's term for your private network of devices. When using Tailscale for personal use, your tailnet is typically associated with your personal email identity.
 
