@@ -23,7 +23,7 @@ searchHidden: false
 
 ## Introduction
 
-Tailscale is a zero-configuration mesh VPN service that connects your devices in a secure peer-to-peer network (a tailnet) using the WireGuard® protocol. It is designed to be easy to set up and works with your existing single sign-on identity (like your Google, Microsoft, or GitHub account) for authentication. All data between your devices is end-to-end encrypted using device keys; the Tailscale coordination servers never see your private traffic.
+Tailscale is a zero-configuration mesh VPN service that connects your devices in a secure peer-to-peer network (a Tailnet) using the WireGuard® protocol. It is designed to be easy to set up and works with your existing single sign-on identity (like your Google, Microsoft, or GitHub account) for authentication. All data between your devices is end-to-end encrypted using device keys; the Tailscale coordination servers never see your private traffic.
 
 ### Key Benefits
 
@@ -33,7 +33,7 @@ Tailscale is a zero-configuration mesh VPN service that connects your devices in
 
 * **Auto Peer Discovery**: Devices find each other via a coordination server and connect directly when possible (or via relays if needed), with no manual IP configuration.
 
-* **Tailnet (Private Network)**: Your devices form a tailnet that is isolated from other users – only devices you authorize can join. By default, devices in your tailnet can reach each other freely.
+* **Tailnet (Private Network)**: Your devices form a Tailnet that is isolated from other users – only devices you authorize can join. By default, devices in your Tailnet can reach each other freely.
 
 * **Identity-Based Access**: Tailscale uses your identity to manage access. You can enforce multi-factor auth via your identity provider and define fine-grained ACL rules based on users and device tags rather than IPs.
 
@@ -43,29 +43,29 @@ Tailscale is a zero-configuration mesh VPN service that connects your devices in
 
 * **Transparent and Open-Source Elements**: The core Tailscale code (client, daemon, relay) is largely open source, and security practices are openly documented.
 
-This guide will walk you through using Tailscale for personal/home purposes. We cover installation on all major platforms (Windows, macOS, Linux, Android, iOS), initial setup of your personal tailnet, and key features like managing devices and keys, configuring access controls, using subnet routers and exit nodes, MagicDNS, device sharing, Tailscale SSH, and more. We'll also discuss typical use cases (like remote access to your home network) and provide tips on privacy, security, and troubleshooting.
+This guide will walk you through using Tailscale for personal/home purposes. We cover installation on all major platforms (Windows, macOS, Linux, Android, iOS), initial setup of your personal Tailnet, and key features like managing devices and keys, configuring access controls, using subnet routers and exit nodes, MagicDNS, device sharing, Tailscale SSH, and more. We'll also discuss typical use cases (like remote access to your home network) and provide tips on privacy, security, and troubleshooting.
 
 ## Creating an Account and Your Tailnet
 
-Before installing Tailscale, you should create a Tailscale account (which also creates your personal tailnet). Tailnet is Tailscale's term for your private network of devices. When using Tailscale for personal use, your tailnet is typically associated with your personal email identity.
+Before installing Tailscale, you should create a Tailscale account (which also creates your personal Tailnet). Tailnet is Tailscale's term for your private network of devices. When using Tailscale for personal use, your Tailnet is typically associated with your personal email identity.
 
 ### Account Setup Steps
 
-1. **Sign Up with an Identity Provider**: Visit the Tailscale website and click Get Started. Tailscale uses third-party login (OAuth) – on the signup page, choose an identity provider you already use (such as Google, Microsoft, GitHub, or Apple) and authenticate. No separate Tailscale-specific password is needed. This login will become the administrator of your tailnet.
+1. **Sign Up with an Identity Provider**: Visit the Tailscale website and click Get Started. Tailscale uses third-party login (OAuth) – on the signup page, choose an identity provider you already use (such as Google, Microsoft, GitHub, or Apple) and authenticate. No separate Tailscale-specific password is needed. This login will become the administrator of your Tailnet.
 
 2. **Personal vs. Domain Accounts**: If you sign up with a personal email (public domain) like Gmail, Yahoo, etc., Tailscale will automatically place you on the Personal plan (free for up to 3 user accounts). This plan is ideal for home users and includes nearly all features. If instead you sign up with a custom domain email, Tailscale assumes a business and starts an Enterprise trial. For purely personal use, it's recommended to use a public-domain email to stay on the free Personal plan.
 
-3. **Tailnet Initialization**: After signup, Tailscale will ask whether the network is for Business or Personal use. Choose Personal use. This mainly influences defaults and plan selection. Once done, your tailnet is created, identified by your login.
+3. **Tailnet Initialization**: After signup, Tailscale will ask whether the network is for Business or Personal use. Choose Personal use. This mainly influences defaults and plan selection. Once done, your Tailnet is created, identified by your login.
 
-4. **First Device Registration**: The web onboarding may prompt you to add your first device. You can either follow the prompts to download Tailscale on your current device or manually install the client. When you log in from the Tailscale app on a device, it registers to your tailnet under your account. As soon as it's authenticated, you'll see the device appear in your Tailscale admin console.
+4. **First Device Registration**: The web onboarding may prompt you to add your first device. You can either follow the prompts to download Tailscale on your current device or manually install the client. When you log in from the Tailscale app on a device, it registers to your Tailnet under your account. As soon as it's authenticated, you'll see the device appear in your Tailscale admin console.
 
 5. **Adding More Devices**: To add a second or subsequent device, simply install Tailscale on that device and log in with the same account. You can also use the admin console's "Add device" flow: it provides a link or QR code to simplify enrolling a new device.
 
-Once you have at least one device connected, your tailnet is active. By default, Tailscale's policy is wide open for a single-user tailnet – any device you add can reach any other device on any port. Later in this guide, we'll show how to use ACLs to impose restrictions if needed.
+Once you have at least one device connected, your Tailnet is active. By default, Tailscale's policy is wide open for a single-user Tailnet – any device you add can reach any other device on any port. Later in this guide, we'll show how to use ACLs to impose restrictions if needed.
 
 ## Installing Tailscale on Different Platforms
 
-Tailscale provides client applications for all major operating systems. The functionality is very similar across platforms – once installed, the client will run in the background to keep your device connected to the tailnet, and provide a user interface for status and settings.
+Tailscale provides client applications for all major operating systems. The functionality is very similar across platforms – once installed, the client will run in the background to keep your device connected to the Tailnet, and provide a user interface for status and settings.
 
 ### Windows Installation
 
@@ -77,7 +77,7 @@ Tailscale supports Windows 10 and later. The Windows client is distributed as an
 
 3. **Log In to Tailscale**: Click the new Tailscale tray icon and choose "Log in". This will open your web browser to the Tailscale authentication page. Log in using the same identity/provider you used to create your account.
 
-4. **Verify Connection**: The Tailscale tray app will update to show you as connected. In the tray menu, under your account name, you should see status messages (like Connected and your device's Tailscale IP). At this point, your Windows machine is part of the tailnet.
+4. **Verify Connection**: The Tailscale tray app will update to show you as connected. In the tray menu, under your account name, you should see status messages (like Connected and your device's Tailscale IP). At this point, your Windows machine is part of the Tailnet.
 
 That's it – Tailscale will automatically start with Windows on boot. You can click the tray icon anytime to see status, disconnect/reconnect, or access settings. If you ever need to uninstall, Tailscale provides an Uninstall option in Add/Remove Programs.
 
@@ -161,7 +161,7 @@ Alternatively, you can use your distribution's package manager:
 3. **Verify Connection**:
    - Run `tailscale status` to see your connection
    - You should see your Tailscale IP (100.x.y.z)
-   - The command will also list other devices in your tailnet
+   - The command will also list other devices in your Tailnet
 
 ### Android Installation
 
@@ -216,7 +216,7 @@ Tailscale supports iOS/iPadOS 15.0 or later. Here's how to set it up:
 
 ## Managing Devices and Keys
 
-Once your devices are connected to your tailnet, you can manage their settings and credentials through the web admin console or CLI. Here are the key aspects of device management:
+Once your devices are connected to your Tailnet, you can manage their settings and credentials through the web admin console or CLI. Here are the key aspects of device management:
 
 ### Device Names and Rename
 
@@ -229,7 +229,7 @@ Once your devices are connected to your tailnet, you can manage their settings a
 
 ### Device Authorization
 
-- More relevant for multi-user tailnets
+- More relevant for multi-user Tailnets
 - Can require admin approval for new devices
 - Enable via admin console settings
 - New devices from non-admins will be in pending state
@@ -285,13 +285,13 @@ Key Features:
 
 ## Access Control Lists (ACLs)
 
-ACLs help you define fine-grained access policies within your tailnet. By default, all devices in a single-user tailnet can communicate freely, but you can restrict this if needed.
+ACLs help you define fine-grained access policies within your Tailnet. By default, all devices in a single-user Tailnet can communicate freely, but you can restrict this if needed.
 
 ### Key Concepts
 
 1. **Default Policy**
    - "Deny-by-default" model
-   - New tailnets allow all connections initially
+   - New Tailnets allow all connections initially
    - Customizable via policy file
 
 2. **Policy Types**
@@ -341,7 +341,7 @@ The ACL system is powerful and flexible, allowing you to create precise access r
 - Service types
 
 For most home users, the default open policy is sufficient. Consider implementing ACLs if you:
-- Share your tailnet with family members
+- Share your Tailnet with family members
 - Need to isolate certain devices
 - Want to restrict access to sensitive services
 
@@ -353,7 +353,7 @@ Tailscale can do more than just connect its clients - it can route traffic for e
 
 ### Subnet Routers
 
-A Subnet Router allows devices on your tailnet to reach IP addresses on a private network that isn't running Tailscale directly. This is particularly useful for accessing home LAN devices (printers, IoT gadgets, etc.) when you're away.
+A Subnet Router allows devices on your Tailnet to reach IP addresses on a private network that isn't running Tailscale directly. This is particularly useful for accessing home LAN devices (printers, IoT gadgets, etc.) when you're away.
 
 #### Example Use Case
 If your home Wi-Fi network is `192.168.1.0/24`, a subnet router can advertise this range on Tailscale, allowing any of your Tailscale devices to access `192.168.1.x` addresses through the tunnel.
@@ -508,13 +508,13 @@ Tailscale assigns each device a unique IP in the `100.64.0.0/10` range. MagicDNS
 ### MagicDNS Features
 
 1. **Automatic Naming**
-   - Format: `devicename.tailnet-name.ts.net`
+   - Format: `devicename.Tailnet-name.ts.net`
    - Example: `raspberrypi.smith-family.ts.net`
-   - Short names work within tailnet
+   - Short names work within Tailnet
    - No need for full domain name
 
 2. **Default Settings**
-   - Enabled by default on new tailnets
+   - Enabled by default on new Tailnets
    - Easy to enable in admin console
    - No external DNS server needed
    - Works with Tailscale v1.20+
@@ -532,7 +532,7 @@ Tailscale allows you to share access with other people in controlled ways throug
 
 ### Device Sharing (Node Sharing)
 
-Device Sharing lets you grant someone outside your tailnet access to a specific device without adding them as a full network member. Perfect for one-off collaborations like:
+Device Sharing lets you grant someone outside your Tailnet access to a specific device without adding them as a full network member. Perfect for one-off collaborations like:
 - Sharing a game server with friends
 - Giving family members access to a specific service
 - Temporary collaboration on a project
@@ -550,7 +550,7 @@ Device Sharing lets you grant someone outside your tailnet access to a specific 
 2. **Recipient Process**
    - Click received link
    - Log in to Tailscale (or sign up)
-   - Must be Owner/Admin of their tailnet
+   - Must be Owner/Admin of their Tailnet
    - Device appears in their list as shared
 
 3. **Access Details**
@@ -569,13 +569,13 @@ Device Sharing lets you grant someone outside your tailnet access to a specific 
    - Prevents malware spread
 
 2. **MagicDNS Integration**
-   - Works across tailnets
+   - Works across Tailnets
    - Use full domain name:
-     - `device.tailnet.ts.net`
+     - `device.Tailnet.ts.net`
    - IP addresses always work
 
 3. **Access Control**
-   - Governed by both tailnets' ACLs:
+   - Governed by both Tailnets' ACLs:
      - Your ACLs control inbound
      - Recipient's ACLs control outbound
    - Check service accessibility
@@ -594,7 +594,7 @@ Device Sharing lets you grant someone outside your tailnet access to a specific 
 
 ### Taildrop (File Sharing)
 
-Taildrop is Tailscale's built-in file transfer feature, similar to AirDrop but works across all operating systems within your tailnet.
+Taildrop is Tailscale's built-in file transfer feature, similar to AirDrop but works across all operating systems within your Tailnet.
 
 #### Key Features
 
@@ -652,7 +652,7 @@ Taildrop is Tailscale's built-in file transfer feature, similar to AirDrop but w
 
 ## Tailscale SSH
 
-Tailscale SSH provides authenticated SSH access within your tailnet without managing SSH keys or opening ports to the internet.
+Tailscale SSH provides authenticated SSH access within your Tailnet without managing SSH keys or opening ports to the internet.
 
 ### Overview
 
@@ -774,12 +774,12 @@ Tailscale excels at simplifying remote access to your network and devices. Here 
 1. **Remote Desktop**
    - Connect to home PC via RDP/VNC
    - No port forwarding needed
-   - Encrypted traffic through tailnet
+   - Encrypted traffic through Tailnet
    - Use MagicDNS names or Tailscale IPs
 
 2. **File Access**
    - Mount network drives remotely
-   - Access NAS through tailnet
+   - Access NAS through Tailnet
    - SMB/network share support
    - Pi-hole DNS through Tailscale
 
@@ -1052,8 +1052,8 @@ This guide was compiled from official Tailscale documentation and resources:
 
 3. **Security Resources**
    - [Security FAQ](https://tailscale.com/security/)
-   - [Technical Design](https://tailscale.com/blog/tailscale-design/)
-   - [Security Model Overview](https://tailscale.com/kb/1172/security-model/)
+   - [Best practices to secure your tailnet](https://tailscale.com/kb/1196/security-hardening?q=security)
+   - [Production best practices](https://tailscale.com/kb/1300/production-best-practices)
 
 4. **Additional Resources**
    - [Tailscale Blog](https://tailscale.com/blog/)
