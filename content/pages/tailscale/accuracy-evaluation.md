@@ -1,6 +1,6 @@
 ---
 title: "Tailscale Guide Accuracy Evaluation"
-url: "/pages/tailscale/accuracy-evaluation"
+url: "/prettygoodsecurity/pages/tailscale/accuracy-evaluation"
 date: 2025-05-19T12:00:00+00:00
 description: "A detailed evaluation of the technical accuracy of our Tailscale Personal Use Guide"
 tags: ["networking", "vpn", "tailscale", "security", "guides"]
