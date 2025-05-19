@@ -21,7 +21,7 @@ ShowShareButtons: false
 searchHidden: false
 ---
 
-> **Note**: For a detailed verification of this guide's technical accuracy against official Tailscale documentation, see our [Tailscale Guide Accuracy Evaluation](/pages/tailscale/accuracy-evaluation/).
+> **Note**: For a detailed verification of this guide's technical accuracy against official Tailscale documentation, see our [Tailscale Guide Accuracy Evaluation](./accuracy-evaluation/).
 
 ## Introduction
 
