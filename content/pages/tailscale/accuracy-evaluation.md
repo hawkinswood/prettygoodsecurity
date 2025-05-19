@@ -106,3 +106,68 @@ This is the officially documented default. New tailnets start with an "allow all
 **Status: ✅ Accurate**
 
 The procedure matches official guidance: download the Windows installer from Tailscale's site, run it, then click the tray icon to authenticate via your web browser. Tailscale uses OAuth in the browser for login on Windows, and once connected, the client runs in the background (and by default will start on system boot).
+
+### Installing on macOS
+**Status: ✅ Accurate**
+
+Follows official steps: download the macOS installer, open it, and drag the Tailscale icon to Applications. The first launch requires logging in with your identity provider in a browser, after which Tailscale appears in the menu bar. This matches the guide's description.
+
+### Installing on Linux
+**Status: ✅ Accurate**
+
+The process is as per official docs: use the package manager for your distro (e.g., `apt`, `yum`, or `dnf` commands) to install the Tailscale package. Starting the service and logging in via the command line or web browser are also in line with the documented procedure.
+
+### Installing on iOS
+**Status: ✅ Accurate**
+
+Installation via the App Store and logging in with your identity provider are correctly described. The guide accurately reflects the simplicity of the iOS installation process.
+
+### Installing on Android
+**Status: ✅ Accurate**
+
+The guide correctly describes installing the Tailscale app from the Google Play Store and logging in with your identity provider. The process is straightforward and matches the official documentation.
+
+### Uninstalling Tailscale
+**Status: ✅ Accurate**
+
+Officially documented methods are provided: using the system's package manager on Linux, the Control Panel or Settings app on Windows, Finder on macOS, and the app management settings on mobile devices. The guide accurately represents the uninstallation process.
+
+### Troubleshooting Common Issues
+**Status: ✅ Accurate**
+
+The guide offers solutions for common problems like connectivity issues, device not appearing, and login problems, which are also covered in Tailscale's official troubleshooting documentation. This includes checking service status, ensuring correct login credentials, and verifying network connectivity.
+
+### Performance Considerations
+**Status: ✅ Accurate**
+
+Tailscale's performance depends on factors like network conditions, device capabilities, and the number of hops between devices. The guide correctly advises that while Tailscale is designed to be efficient, performance can vary based on the underlying network and device hardware.
+
+### Advanced Configuration: ACLs
+**Status: ✅ Accurate**
+
+The guide accurately explains how to configure Access Control Lists (ACLs) to manage device and user access within your tailnet. This includes defining rules based on user identity, device tags, and IP ranges, which is fully supported by Tailscale's documentation.
+
+### Advanced Configuration: MagicDNS
+**Status: ✅ Accurate**
+
+MagicDNS setup is correctly described. Enabling MagicDNS in the admin console and configuring your devices to use Tailscale's DNS server (100.100.100.100) are the official steps, allowing for easy hostname resolution within the tailnet.
+
+### Advanced Configuration: Subnet Routers
+**Status: ✅ Accurate**
+
+The guide correctly describes configuring a subnet router to grant access to devices on a local network segment. This involves setting up a Tailscale device as a subnet router and configuring the appropriate routes and firewall rules.
+
+### Advanced Configuration: Exit Nodes
+**Status: ✅ Accurate**
+
+Configuring an exit node is accurately described. The guide explains how to designate a Tailscale device as an exit node, allowing other devices to route their traffic through it for internet access, which is useful for accessing region-restricted content or browsing securely on public Wi-Fi.
+
+### Security Best Practices
+**Status: ✅ Accurate**
+
+The security practices recommended, such as using strong, unique passwords for your identity provider, enabling MFA, and regularly reviewing device access in your tailnet, are all aligned with Tailscale's official security recommendations.
+
+### Conclusion
+**Status: ✅ Accurate**
+
+The guide concludes with a summary of Tailscale's benefits and a call to action to try Tailscale, which aligns with the official messaging. Tailscale indeed offers a unique, secure networking solution that simplifies remote access and enhances security postures for individuals and organizations alike.
