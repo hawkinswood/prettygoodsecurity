@@ -19,6 +19,7 @@ hidemeta: true
 comments: false
 ShowShareButtons: false
 searchHidden: false
+url: "/pages/tailscale/accuracy-evaluation/"
 ---
 
 This report compares the HawkinsWood "Tailscale Personal Use Guide" with official Tailscale documentation to verify each technical claim. We confirm whether the guide's descriptions match the current official Tailscale knowledge base (as of 2025), noting any discrepancies or needed clarifications. All security-related statements are cross-checked against Tailscale's official security documentation to ensure they accurately reflect Tailscale's real-world architecture.
