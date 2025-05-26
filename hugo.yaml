@@ -19,7 +19,7 @@ params:
   description: "A secure and modern blog about security best practices"
   keywords: [Blog, Security, Best Practices]
   author: Hawkins Wood
-  images: ["/images/logo.png"]
+  images: ["images/logo.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false
@@ -45,11 +45,11 @@ params:
   showAllPagesInArchive: false
 
   assets:
-    favicon: "/images/favicon.png"
-    favicon16x16: "/images/favicon.png"
-    favicon32x32: "/images/favicon.png"
-    apple_touch_icon: "/images/favicon.png"
-    safari_pinned_tab: "/images/favicon.png"
+    favicon: "images/favicon.png"
+    favicon16x16: "images/favicon.png"
+    favicon32x32: "images/favicon.png"
+    apple_touch_icon: "images/favicon.png"
+    safari_pinned_tab: "images/favicon.png"
     theme_color: "#fff"
     msapplication_TileColor: "#fff"
     disableHLJS: true
@@ -61,7 +61,7 @@ params:
     enabled: false
     title: Pretty Good Security
     subtitle: "A secure and modern blog about security best practices"
-    imageUrl: "/images/logo.png"
+    imageUrl: "images/logo.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: Pretty Good Security Logo

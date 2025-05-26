@@ -19,7 +19,7 @@ ShowPostNavLinks: false
 ShowWordCount: false
 ShowRssButtonInSectionTermList: false
 cover:
-    image: "/images/logo.png"
+    image: "images/logo.png"
     alt: "Pretty Good Security Logo"
     caption: "Pretty Good Security - Practical security guidance for everyone"
     relative: false
