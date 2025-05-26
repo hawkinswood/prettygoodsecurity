@@ -7,7 +7,7 @@ keywords: ["about", "security", "privacy", "mission"]
 author: "Hawkins Wood"
 showToc: false
 TocOpen: false
-hidemeta: false
+hidemeta: true
 comments: false
 disableHLJS: true
 disableShare: true
