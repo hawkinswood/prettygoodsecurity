@@ -80,7 +80,7 @@ We're always looking to improve and cover topics that matter to you. If you have
 
 Remember: security is a journey, not a destination. Start with the basics, implement what you can, and gradually build your security posture over time. Every step forward makes you more secure than you were yesterday.
 
-![Pretty Good Security](../images/prettygoodsecurity.png "Pretty Good Security - Practical security guidance for everyone")
+![Pretty Good Security](/prettygoodsecurity/images/prettygoodsecurity.png "Pretty Good Security - Practical security guidance for everyone")
 
 ---
 
