@@ -18,12 +18,6 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: false
 ShowWordCount: false
 ShowRssButtonInSectionTermList: false
-cover:
-    image: "images/logo.png"
-    alt: "Pretty Good Security Logo"
-    caption: "Pretty Good Security - Practical security guidance for everyone"
-    relative: false
-    hidden: false
 ---
 
 # About Pretty Good Security
@@ -85,6 +79,8 @@ Perfect security is the enemy of good security. We focus on:
 We're always looking to improve and cover topics that matter to you. If you have suggestions for new guides, corrections to existing content, or questions about security topics not yet covered, please don't hesitate to reach out.
 
 Remember: security is a journey, not a destination. Start with the basics, implement what you can, and gradually build your security posture over time. Every step forward makes you more secure than you were yesterday.
+
+![Pretty Good Security](images/prettygoodsecurity.png "Pretty Good Security - Practical security guidance for everyone")
 
 ---
 
