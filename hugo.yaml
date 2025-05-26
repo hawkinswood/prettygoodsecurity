@@ -100,6 +100,10 @@ taxonomies:
 
 menu:
   main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
     - identifier: tailscale-guide
       name: Tailscale
       url: /pages/tailscale/
