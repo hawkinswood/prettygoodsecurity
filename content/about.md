@@ -88,4 +88,4 @@ Remember: security is a journey, not a destination. Start with the basics, imple
 
 ---
 
-*Last updated: {{ .Lastmod.Format "January 2, 2006" }}*
+*Last updated: May 26, 2025*
