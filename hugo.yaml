@@ -106,7 +106,7 @@ menu:
       weight: 10
     - identifier: weakest-link
       name: The Weakest Link
-      url: /weakest-link/
+      url: /pages/weakest-link/
       weight: 20
     - identifier: tailscale-guide
       name: Tailscale
