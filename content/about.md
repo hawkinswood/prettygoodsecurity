@@ -1,9 +1,9 @@
 ---
 title: "About"
-date: 2025-05-26T12:00:00-00:00
+date: 2025-05-28T12:00:00-00:00
 draft: false
-description: "Learn more about Pretty Good Security and our mission to provide practical security guidance."
-keywords: ["about", "security", "privacy", "mission"]
+description: "Learn about Pretty Good Security and our mission to provide practical, actionable security guidance that anyone can understand and implement."
+keywords: ["about", "security", "privacy", "mission", "practical security"]
 author: "Hawkins Wood"
 showToc: false
 TocOpen: false
@@ -36,110 +36,109 @@ Our mission is to:
 
 ## What You'll Find Here
 
-### Device Security Guides
-Comprehensive guides for securing your:
+### Comprehensive Security Guides
+
+**The Weakest Link:** Our foundational guide explaining how your digital security operates as an interconnected system. Learn why email accounts require special attention, understand authentication method trade-offs, and discover practical steps to strengthen your security chain.
+
+**Device Security Guides:** Platform-specific security guidance for:
 - **iPhone & iOS devices** - Privacy settings, security features, and best practices
 - **Mac & macOS systems** - System hardening, built-in security tools, and maintenance
 - **Windows computers** - Security configurations, updates, and protection strategies
 
-### Network & Infrastructure Security
-Learn how to secure your digital infrastructure:
-- **Router security** - Firmware updates, configuration, and network protection
+**Network & Infrastructure Security:** Essential knowledge for protecting your digital infrastructure:
+- **Router security** - Comprehensive guidance on firmware management, configuration, and network protection
 - **Network monitoring** - Understanding your network traffic and identifying threats
-- **VPN solutions** - Including detailed Tailscale guides for secure remote access
+- **Tailscale guides** - Detailed tutorials for secure remote access and networking
 
-### Resources & Tools
-Curated collections of:
-- Security tools and software recommendations
-- Reference materials and documentation
-- Step-by-step tutorials and walkthroughs
+**Resources & Tools:** Curated collections of security tools, reference materials, and step-by-step tutorials.
 
 ## Our Philosophy
 
-We embrace the principle of **"Pretty Good Security"** – the fundamental understanding that perfect security doesn't exist, and never will. There is no such thing as being completely secure in our connected world.
+We embrace the principle of **"Pretty Good Security"** – the understanding that perfect security doesn't exist and never will. However, this reality doesn't mean we should give up. Instead, it means we should focus on what's actually achievable: **meaningful protection through practical measures**.
 
-However, this reality doesn't mean we should give up. Instead, it means we should focus on what's actually achievable: **meaningful protection through practical measures**.
+### Key Principles
 
-By following simple, proven best practices, you can significantly improve your security posture for:
-- **Your internet-connected devices** - phones, computers, tablets, smart home devices
-- **Your online accounts** - email, social media, banking, shopping, and other services
-- **Your digital life** - files, photos, communications, and personal information
+**Security is a Chain:** Your digital security operates as an interconnected system where the protection of one account often depends on the security of others. Understanding these relationships helps you prioritize your security efforts effectively.
 
-Our approach recognizes that:
-- **Perfect security is impossible** - but meaningful protection is absolutely achievable
-- **Simple beats complex** - basic security measures properly implemented are more effective than sophisticated solutions that never get used
-- **Consistency matters more than perfection** - regular good habits provide better protection than sporadic perfect practices
-- **Risk reduction is the goal** - we can't eliminate all threats, but we can dramatically reduce your exposure to the most common ones
+**Focus on the Weakest Link:** In most cases, your email account serves as the weakest link because nearly every digital service uses email for password resets, security alerts, and account recovery. Securing your email with strong authentication is the foundation of good security.
 
-## The Weakest Link
+**Simple Beats Complex:** Basic security measures properly implemented are more effective than sophisticated solutions that never get used. We prioritize practical steps you'll actually follow.
 
-Your security is only as strong as its weakest link – and in most cases, **that weakest link is your email account**.
+**Consistency Matters:** Regular good habits provide better protection than sporadic perfect practices. Small, consistent improvements build strong security over time.
 
-Here's why: nearly every digital service you use is connected to your email address. Your banking, social media, shopping, cloud storage, work accounts – they all rely on your email for password resets, security notifications, and account recovery. If someone gains access to your email, they can potentially access everything else.
+**Risk Reduction is the Goal:** We can't eliminate all threats, but we can dramatically reduce your exposure to the most common ones.
 
-### The SMS Problem
+## Understanding Digital Security
 
-Many people think they're secure because they have "two-factor authentication" enabled, but **SMS text messages are not secure**. Your phone number can be compromised through:
+### Why Email Security is Critical
 
-- **SIM swapping** - attackers convince your carrier to transfer your number to their device
-- **SS7 attacks** - exploiting vulnerabilities in the cellular network infrastructure  
-- **Social engineering** - tricking carrier employees into making account changes
-- **Physical theft** - stealing your phone to receive SMS codes
+Your email account often serves as a gateway to other services because most digital platforms use email for:
+- Password reset requests
+- Security alerts and notifications  
+- Account verification and recovery
+- Two-factor authentication backup methods
 
-When your phone number is compromised, every account that uses SMS for "security" becomes vulnerable.
+When an attacker gains access to your email account, they can potentially request password resets for linked accounts, receive reset communications directly, and access sensitive information across multiple services.
 
-### Strengthening the Chain
+### The Authentication Hierarchy
 
-The solution is simple: **you must strengthen the weakest link until there is no weakness**. This means securing your email account with the strongest possible authentication:
+Not all authentication methods provide equal security:
 
-#### Minimum Standard: Authenticator Apps
-Replace SMS with an authenticator app like:
-- **Authy** - syncs across devices with encryption
-- **Google Authenticator** - simple and widely supported
-- **Microsoft Authenticator** - integrates well with Microsoft services
-- **1Password** - if you're already using their password manager
+**SMS Text Messages:** While better than passwords alone, SMS has documented vulnerabilities including SIM swapping, network-level interception, and social engineering attacks against carriers.
 
-#### Better: Hardware Security Keys
-Physical security keys provide the strongest protection:
-- **YubiKey** - the gold standard for hardware keys
-- **Google Titan Security Key** - Google's hardware solution
-- **SoloKeys** - open-source alternative
+**Authenticator Apps:** Generate codes locally on your device, work offline, and aren't tied to phone numbers. Examples include Authy, Google Authenticator, and Microsoft Authenticator.
 
-#### Best: Passkeys (When Available)
-Passkeys represent the future of authentication, but remember:
-- **They're only as secure as the device storing them**
-- **Device compromise means passkey compromise**
-- **Backup and recovery plans are crucial**
-- **Not all services support them yet**
+**Hardware Security Keys:** Provide maximum security independence with private keys that never leave the device. Examples include YubiKey, Google Titan, and SoloKeys.
 
-### The Domino Effect
+**Passkeys:** Offer excellent security with superior usability but depend on platform security infrastructure from providers like Apple or Google.
 
-Once you've secured your email with strong authentication, extend the same protection to other critical accounts:
-- **Password manager** - protects all your other passwords
-- **Banking and financial services** - obvious high-value targets
-- **Cloud storage** - contains your personal files and photos
-- **Work accounts** - protects professional data and access
+### Practical Implementation Strategy
 
-Remember: security is a chain. Find your weakest link, strengthen it, then find the next weakest link. Repeat until your entire digital life has a consistent level of protection.
+**Week 1:** Secure your email and password manager with strong two-factor authentication
+**Week 2:** Apply enhanced security to financial and work accounts
+**Week 3:** Review and secure cloud storage and important personal accounts  
+**Week 4:** Implement monitoring systems and test recovery procedures
+
+## Network Security Fundamentals
+
+Your home router represents a critical component in your security chain. Unlike other devices that handle personal data, your router controls ALL network traffic, making it a strategic target for attackers.
+
+### Common Router Vulnerabilities
+
+Consumer routers often suffer from systemic security problems:
+- Firmware contains outdated software components with known vulnerabilities
+- Manufacturers provide minimal ongoing security support
+- Updates are infrequent and often abandon older models entirely
+- Default configurations prioritize features over security
+
+### Essential Router Security
+
+**Change Default Credentials:** Replace default administrator passwords with strong, unique credentials.
+
+**Disable Unnecessary Features:** Turn off WPS, UPnP, remote administration, and other services that increase security risks.
+
+**Update Firmware Regularly:** Check for and install updates monthly. Consider router replacement if no updates have been available for over two years.
+
+**Use Strong WiFi Security:** Configure networks to use WPA3 (or WPA2 if WPA3 isn't available) with strong passwords.
 
 ## About the Author
 
 **Hawkins Wood** brings years of experience in cybersecurity, system administration, and privacy advocacy. With a background in both technical implementation and security education, Hawkins focuses on translating complex security concepts into actionable guidance that anyone can follow.
 
-## Stay Connected
+## Getting Started
 
-- **RSS Feed** - Subscribe to stay updated with the latest guides and security news
-- **Search** - Use our built-in search to quickly find specific topics
-- **Categories & Tags** - Browse content by device type, security domain, or topic
-
-## Feedback & Suggestions
-
-We're always looking to improve and cover topics that matter to you. If you have suggestions for new guides, corrections to existing content, or questions about security topics not yet covered, please don't hesitate to reach out.
+If you're new to security planning, start with **The Weakest Link** guide to understand how your digital security operates as an interconnected system. Then explore our device-specific guides and network security resources based on your particular needs and interests.
 
 Remember: security is a journey, not a destination. Start with the basics, implement what you can, and gradually build your security posture over time. Every step forward makes you more secure than you were yesterday.
 
-![Pretty Good Security](/prettygoodsecurity/images/prettygoodsecurity.png "Pretty Good Security - Practical security guidance for everyone")
+## Stay Connected
+
+- **RSS Feed** - Subscribe to stay updated with the latest guides and security news
+- **Search** - Use our built-in search to quickly find specific topics  
+- **Categories & Tags** - Browse content by device type, security domain, or topic
+
+![Pretty Good Security](/images/prettygoodsecurity.png "Pretty Good Security - Practical security guidance for everyone")
 
 ---
 
-*Last updated: May 26, 2025*
+*Last updated: May 28, 2025*
