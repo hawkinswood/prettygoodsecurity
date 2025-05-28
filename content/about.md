@@ -137,7 +137,7 @@ Remember: security is a journey, not a destination. Start with the basics, imple
 - **Search** - Use our built-in search to quickly find specific topics  
 - **Categories & Tags** - Browse content by device type, security domain, or topic
 
-![Pretty Good Security](/images/prettygoodsecurity.png "Pretty Good Security - Practical security guidance for everyone")
+![Pretty Good Security](/prettygoodsecurity/images/prettygoodsecurity.png "Pretty Good Security - Practical security guidance for everyone")
 
 ---
 
