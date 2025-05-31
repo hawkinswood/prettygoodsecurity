@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Web Development on Pretty Good Security</title>
+    <link>https://hawkinswood.github.io/prettygoodsecurity/tags/web-development/</link>
+    <description>Recent content in Web Development on Pretty Good Security</description>
+    <image>
+      <title>Pretty Good Security</title>
+      <url>https://hawkinswood.github.io/prettygoodsecurity/images/logo.png</url>
+      <link>https://hawkinswood.github.io/prettygoodsecurity/images/logo.png</link>
+    </image>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 May 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hawkinswood.github.io/prettygoodsecurity/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to Pretty Good Security</title>
+      <link>https://hawkinswood.github.io/prettygoodsecurity/posts/welcome/</link>
+      <pubDate>Wed, 14 May 2025 12:00:00 +0000</pubDate>
+      <guid>https://hawkinswood.github.io/prettygoodsecurity/posts/welcome/</guid>
+      <description>Welcome to our blog about security best practices and modern web development</description>
+      <content:encoded><![CDATA[<h2 id="welcome-to-pretty-good-security">Welcome to Pretty Good Security</h2>
+<p>Welcome to our blog dedicated to security best practices and modern web development. Here, we&rsquo;ll explore various topics related to securing web applications, implementing best practices, and staying up-to-date with the latest security trends.</p>
+<h3 id="what-well-cover">What We&rsquo;ll Cover</h3>
+<ul>
+<li>Web Application Security</li>
+<li>Security Best Practices</li>
+<li>Modern Development Techniques</li>
+<li>Infrastructure Security</li>
+<li>And much more!</li>
+</ul>
+<p>Stay tuned for more content coming soon!</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

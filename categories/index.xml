@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Pretty Good Security</title>
+    <link>https://hawkinswood.github.io/prettygoodsecurity/categories/</link>
+    <description>Recent content in Categories on Pretty Good Security</description>
+    <image>
+      <title>Pretty Good Security</title>
+      <url>https://hawkinswood.github.io/prettygoodsecurity/images/logo.png</url>
+      <link>https://hawkinswood.github.io/prettygoodsecurity/images/logo.png</link>
+    </image>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hawkinswood.github.io/prettygoodsecurity/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Device-Security</title>
+      <link>https://hawkinswood.github.io/prettygoodsecurity/categories/device-security/</link>
+      <pubDate>Sat, 31 May 2025 12:00:00 +0000</pubDate>
+      <guid>https://hawkinswood.github.io/prettygoodsecurity/categories/device-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Network-Security</title>
+      <link>https://hawkinswood.github.io/prettygoodsecurity/categories/network-security/</link>
+      <pubDate>Mon, 26 May 2025 12:00:00 +0000</pubDate>
+      <guid>https://hawkinswood.github.io/prettygoodsecurity/categories/network-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>https://hawkinswood.github.io/prettygoodsecurity/categories/resources/</link>
+      <pubDate>Wed, 14 May 2025 12:00:00 +0000</pubDate>
+      <guid>https://hawkinswood.github.io/prettygoodsecurity/categories/resources/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Welcome</title>
+      <link>https://hawkinswood.github.io/prettygoodsecurity/categories/welcome/</link>
+      <pubDate>Wed, 14 May 2025 12:00:00 +0000</pubDate>
+      <guid>https://hawkinswood.github.io/prettygoodsecurity/categories/welcome/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

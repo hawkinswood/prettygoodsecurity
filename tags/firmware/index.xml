@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Firmware on Pretty Good Security</title>
+    <link>https://hawkinswood.github.io/prettygoodsecurity/tags/firmware/</link>
+    <description>Recent content in Firmware on Pretty Good Security</description>
+    <image>
+      <title>Pretty Good Security</title>
+      <url>https://hawkinswood.github.io/prettygoodsecurity/images/logo.png</url>
+      <link>https://hawkinswood.github.io/prettygoodsecurity/images/logo.png</link>
+    </image>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 26 May 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hawkinswood.github.io/prettygoodsecurity/tags/firmware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Router Security Guide</title>
+      <link>https://hawkinswood.github.io/prettygoodsecurity/pages/router/</link>
+      <pubDate>Mon, 26 May 2025 12:00:00 +0000</pubDate>
+      <guid>https://hawkinswood.github.io/prettygoodsecurity/pages/router/</guid>
+      <description>Comprehensive guide to securing your home router and network infrastructure - understanding vulnerabilities, essential configurations, and practical security measures.</description>
+      <content:encoded><![CDATA[<h1 id="the-complete-guide-to-home-router-security">The Complete Guide to Home Router Security</h1>
+<p><em>This guide draws extensively from the research and expertise of Michael Horowitz at <a href="https://routersecurity.org" target="_blank" rel="noopener">RouterSecurity.org</a>
+, particularly the comprehensive <a href="https://routersecurity.org/checklist.php" target="_blank" rel="noopener">Router Security Checklist</a>
+. We recommend visiting his site for the most current information and detailed technical analysis.</em></p>
+<p>Your home router controls all network traffic between your devices and the internet, making it a critical component that deserves careful security attention. While many users focus on securing individual devices, routers often contain outdated software components and receive minimal ongoing security support.</p>
+<h2 id="understanding-router-security-challenges">Understanding Router Security Challenges</h2>
+<p>As security expert Michael Horowitz documents extensively at <a href="https://routersecurity.org" target="_blank" rel="noopener">RouterSecurity.org</a>
+, consumer routers are <a href="https://routersecurity.org/consumerrouters.php" target="_blank" rel="noopener">designed and marketed</a>
+ based on speed, features, and price rather than security considerations. This approach results in systematic vulnerabilities that security researchers consistently identify.</p>
+<h3 id="the-software-problem">The Software Problem</h3>
+<p><strong>Outdated Components:</strong> Consumer router firmware typically contains disgracefully old versions of critical software components. RouterSecurity.org <a href="https://routersecurity.org/consumerrouters.php" target="_blank" rel="noopener">documents examples</a>
+ like routers shipping with versions of software that are 30+ releases behind current versions, missing years of security patches.</p>
+<p><strong>Minimal Vendor Support:</strong> Router manufacturers provide firmware as cheaply as possible. As Horowitz notes in his analysis of <a href="https://routersecurity.org/consumerrouters.php" target="_blank" rel="noopener">consumer router problems</a>
+, when you buy a consumer router, &ldquo;you are buying the hardware. The software is provided as cheaply as possible.&rdquo;</p>
+<p><strong>Firmware Abandonment:</strong> Most consumer routers stop receiving security updates within 2-3 years. Vendors frequently ignore reported vulnerabilities entirely or fix them only in newer models while leaving identical flaws in older products.</p>
+<p><strong>Poor Quality Control:</strong> A 2020 Fraunhofer Institute study of 127 consumer routers found that not one was bug-free, with an average of 53 critical vulnerabilities per router. The study is detailed in RouterSecurity.org&rsquo;s <a href="https://routersecurity.org/consumerrouters.php" target="_blank" rel="noopener">consumer router analysis</a>
+.</p>
+<h3 id="the-attack-surface">The Attack Surface</h3>
+<p><strong>Everything Routes Through Your Router:</strong> As RouterSecurity.org explains in <a href="https://routersecurity.org/whatcangowrong.php" target="_blank" rel="noopener">What Can Go Wrong</a>
+, a compromised router gives attackers control over all network traffic. They can monitor, modify, and redirect communications without accessing individual devices.</p>
+<p><strong>Multiple Attack Vectors:</strong> Routers enable numerous services and protocols by default that create security vulnerabilities. The RouterSecurity.org <a href="https://routersecurity.org/turnoff.php" target="_blank" rel="noopener">Turn Off Features</a>
+ page documents the many unnecessary services that should be disabled.</p>
+<h2 id="essential-router-security-configuration">Essential Router Security Configuration</h2>
+<p><em>Based on the comprehensive <a href="https://routersecurity.org/checklist.php" target="_blank" rel="noopener">RouterSecurity.org Security Checklist</a>
+</em></p>
+<h3 id="immediate-security-actions">Immediate Security Actions</h3>
+<p><strong>1. Change All Default Passwords</strong></p>
+<p>Replace default administrator credentials with strong, unique passwords. The RouterSecurity.org checklist emphasizes that routers should force you to create new passwords during initial setup - many don&rsquo;t.</p>
+<ul>
+<li><strong>Router admin password:</strong> Use a strong, unique password never used elsewhere</li>
+<li><strong>WiFi network passwords:</strong> Create strong passwords for all wireless networks</li>
+<li><strong>Password requirements:</strong> Ensure passwords are long enough (test if your router accepts 17+ character passwords)</li>
+</ul>
+<p><strong>2. Secure Administrative Access</strong></p>
+<p>Following RouterSecurity.org&rsquo;s <a href="https://routersecurity.org/checklist.php#localadmin" target="_blank" rel="noopener">local administration guidelines</a>
+:</p>
+<ul>
+<li>Enable HTTPS-only access to the router interface</li>
+<li>Change the default web interface port from 80/443 to something non-standard</li>
+<li>Disable or severely restrict remote administration</li>
+<li>Enable automatic logout after inactivity</li>
+<li>Restrict admin access by IP address if possible</li>
+</ul>
+<p><strong>3. Disable Unnecessary Features</strong></p>
+<p>Consumer routers enable many features by default that increase security risks. Disable:</p>
+<ul>
+<li><strong>WPS (WiFi Protected Setup)</strong> - has fundamental security flaws</li>
+<li><strong>UPnP (Universal Plug and Play)</strong> - allows devices to automatically open firewall ports</li>
+<li><strong>Remote administration</strong> - enables management from the internet</li>
+<li><strong>Telnet and SSH access</strong> - provide command-line access to the router</li>
+<li><strong>File sharing from USB devices</strong> - exposes connected storage to network attacks</li>
+<li><strong>Guest networks</strong> - unless specifically needed and properly configured</li>
+</ul>
+<h3 id="wifi-security-configuration">WiFi Security Configuration</h3>
+<p><strong>Use the Strongest Available Security Protocol:</strong></p>
+<ul>
+<li><strong>WPA3</strong> (preferred if available)</li>
+<li><strong>WPA2</strong> (acceptable if WPA3 isn&rsquo;t supported)</li>
+<li><strong>Never use WEP or Open networks</strong></li>
+</ul>
+<p><strong>Network Segmentation:</strong></p>
+<ul>
+<li>Create separate guest networks for visitors</li>
+<li>Isolate IoT devices on dedicated networks</li>
+<li>Use VLANs if your router supports them</li>
+</ul>
+<p><strong>Additional WiFi Security:</strong></p>
+<ul>
+<li>Hide network SSID (reduces casual discovery)</li>
+<li>Disable WPS entirely</li>
+<li>Use MAC address filtering for highly sensitive networks</li>
+<li>Regularly audit connected devices</li>
+</ul>
+<h3 id="firmware-management">Firmware Management</h3>
+<p><strong>Regular Update Schedule:</strong></p>
+<ul>
+<li>Check for firmware updates monthly</li>
+<li>Enable automatic updates if available from reputable manufacturers</li>
+<li>Subscribe to security notifications from your router manufacturer</li>
+</ul>
+<p><strong>Update Process:</strong></p>
+<ul>
+<li>Always download firmware directly from manufacturer websites</li>
+<li>Verify firmware checksums when provided</li>
+<li>Never interrupt firmware updates</li>
+<li>Backup current configuration before updating</li>
+</ul>
+<p><strong>End-of-Life Planning:</strong></p>
+<ul>
+<li>Monitor when your router model stops receiving updates</li>
+<li>Plan replacement within 6 months of firmware abandonment</li>
+<li>Research security support history before purchasing new routers</li>
+</ul>
+<h2 id="advanced-security-measures">Advanced Security Measures</h2>
+<h3 id="network-monitoring">Network Monitoring</h3>
+<p><strong>Traffic Analysis:</strong></p>
+<ul>
+<li>Monitor for unusual outbound connections</li>
+<li>Watch for unexpected bandwidth usage</li>
+<li>Track new devices joining your network</li>
+</ul>
+<p><strong>Log Review:</strong></p>
+<ul>
+<li>Enable detailed logging if available</li>
+<li>Review logs weekly for suspicious activity</li>
+<li>Set up alerts for critical events if supported</li>
+</ul>
+<h3 id="dns-security">DNS Security</h3>
+<p><strong>Secure DNS Providers:</strong></p>
+<ul>
+<li>Use reputable DNS services (Cloudflare 1.1.1.1, Quad9 9.9.9.9)</li>
+<li>Avoid ISP-provided DNS when possible</li>
+<li>Consider DNS filtering services for additional protection</li>
+</ul>
+<p><strong>DNS Configuration:</strong></p>
+<ul>
+<li>Disable ISP-provided DNS</li>
+<li>Configure custom DNS servers</li>
+<li>Enable DNS over HTTPS (DoH) if supported</li>
+</ul>
+<h3 id="firewall-configuration">Firewall Configuration</h3>
+<p><strong>Default Deny Policy:</strong></p>
+<ul>
+<li>Block all unnecessary inbound connections</li>
+<li>Review and minimize outbound rules</li>
+<li>Document any custom rules and their purposes</li>
+</ul>
+<p><strong>Port Management:</strong></p>
+<ul>
+<li>Close unused ports</li>
+<li>Change default service ports where possible</li>
+<li>Use port knocking for sensitive services if available</li>
+</ul>
+<h2 id="router-replacement-considerations">Router Replacement Considerations</h2>
+<h3 id="when-to-replace-your-router">When to Replace Your Router</h3>
+<p><strong>Immediate Replacement Indicators:</strong></p>
+<ul>
+<li>No firmware updates in over 18 months</li>
+<li>Known unpatched vulnerabilities</li>
+<li>Manufacturer has discontinued the model</li>
+<li>Router lacks modern security features (WPA3, automatic updates)</li>
+</ul>
+<p><strong>Planning for Replacement:</strong></p>
+<ul>
+<li>Research manufacturer security track records</li>
+<li>Consider business-grade alternatives for better security</li>
+<li>Budget for replacement every 3-4 years maximum</li>
+</ul>
+<h3 id="alternative-router-options">Alternative Router Options</h3>
+<p><strong>Business-Class Routers:</strong>
+For users prioritizing security, consider equipment from:</p>
+<ul>
+<li><strong>Peplink</strong> - Professional firmware development and support</li>
+<li><strong>Ubiquiti</strong> - Enterprise-grade features with regular updates</li>
+<li><strong>Cisco Small Business</strong> - Corporate security in smaller form factors</li>
+</ul>
+<p><strong>Custom Firmware Options:</strong></p>
+<ul>
+<li><strong>OpenWrt</strong> - Open source firmware for supported routers</li>
+<li><strong>DD-WRT</strong> - Alternative firmware with enhanced features</li>
+<li><strong>pfSense</strong> - Professional firewall/router software for dedicated hardware</li>
+</ul>
+<h2 id="testing-your-router-security">Testing Your Router Security</h2>
+<h3 id="security-assessment-tools">Security Assessment Tools</h3>
+<p><strong>Router Security Tests:</strong></p>
+<ul>
+<li>Visit <a href="https://routersecurity.org/testrouter.php" target="_blank" rel="noopener">RouterSecurity.org&rsquo;s testing page</a>
+</li>
+<li>Use online port scanners to check for open ports</li>
+<li>Test for common default credentials</li>
+</ul>
+<p><strong>Network Security Scanning:</strong></p>
+<ul>
+<li>Use tools like Nmap to scan your network</li>
+<li>Check for unnecessary services</li>
+<li>Verify firewall rules are working correctly</li>
+</ul>
+<h3 id="regular-security-audits">Regular Security Audits</h3>
+<p><strong>Monthly Tasks:</strong></p>
+<ul>
+<li>Review connected devices</li>
+<li>Check for firmware updates</li>
+<li>Monitor network logs for anomalies</li>
+</ul>
+<p><strong>Quarterly Tasks:</strong></p>
+<ul>
+<li>Change administrative passwords</li>
+<li>Review and update firewall rules</li>
+<li>Test backup and recovery procedures</li>
+</ul>
+<p><strong>Annual Tasks:</strong></p>
+<ul>
+<li>Complete security configuration review</li>
+<li>Evaluate router replacement needs</li>
+<li>Update network documentation</li>
+</ul>
+<h2 id="common-router-security-mistakes">Common Router Security Mistakes</h2>
+<h3 id="configuration-errors">Configuration Errors</h3>
+<p><strong>Leaving Default Settings:</strong></p>
+<ul>
+<li>Default passwords on administrative accounts</li>
+<li>Default network names that identify router models</li>
+<li>Enabled services that aren&rsquo;t needed</li>
+</ul>
+<p><strong>Poor Network Design:</strong></p>
+<ul>
+<li>Single network for all devices</li>
+<li>No guest network isolation</li>
+<li>Mixing trusted and untrusted devices</li>
+</ul>
+<h3 id="maintenance-failures">Maintenance Failures</h3>
+<p><strong>Neglecting Updates:</strong></p>
+<ul>
+<li>Never checking for firmware updates</li>
+<li>Ignoring security notifications</li>
+<li>Running outdated firmware for years</li>
+</ul>
+<p><strong>Insufficient Monitoring:</strong></p>
+<ul>
+<li>Not reviewing network activity</li>
+<li>Missing signs of compromise</li>
+<li>Failing to audit connected devices</li>
+</ul>
+<h2 id="emergency-response-procedures">Emergency Response Procedures</h2>
+<h3 id="if-you-suspect-router-compromise">If You Suspect Router Compromise</h3>
+<p><strong>Immediate Actions:</strong></p>
+<ol>
+<li>Disconnect router from internet</li>
+<li>Document suspicious activity</li>
+<li>Check all connected devices for malware</li>
+<li>Reset router to factory defaults</li>
+<li>Reconfigure with secure settings</li>
+</ol>
+<p><strong>Recovery Process:</strong></p>
+<ol>
+<li>Update to latest firmware before reconnecting</li>
+<li>Change all passwords (router and WiFi)</li>
+<li>Monitor network traffic closely for 30 days</li>
+<li>Consider replacing router if compromise is confirmed</li>
+</ol>
+<h3 id="backup-and-recovery">Backup and Recovery</h3>
+<p><strong>Configuration Backups:</strong></p>
+<ul>
+<li>Export router configuration monthly</li>
+<li>Store backups securely offline</li>
+<li>Document custom settings and rules</li>
+<li>Test restoration procedures periodically</li>
+</ul>
+<p><strong>Emergency Contacts:</strong></p>
+<ul>
+<li>ISP technical support information</li>
+<li>Router manufacturer support details</li>
+<li>Local IT support if available</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>Router security requires ongoing attention and regular maintenance. While consumer routers present significant challenges, implementing these security measures dramatically improves your network&rsquo;s protection against common attacks.</p>
+<p>Remember that security is an ongoing process, not a one-time setup. Regular updates, monitoring, and maintenance are essential for maintaining effective router security.</p>
+<p>For the most current information and detailed technical guidance, regularly consult <a href="https://routersecurity.org" target="_blank" rel="noopener">RouterSecurity.org</a>
+ and follow their <a href="https://routersecurity.org/checklist.php" target="_blank" rel="noopener">comprehensive security checklist</a>
+.</p>
+<hr>
+<p><em>This guide synthesizes extensive research from <a href="https://routersecurity.org" target="_blank" rel="noopener">RouterSecurity.org</a>
+ by Michael Horowitz. For the most current information, detailed technical analysis, and ongoing security updates, visit the original source. RouterSecurity.org&rsquo;s <a href="https://routersecurity.org/checklist.php" target="_blank" rel="noopener">comprehensive checklist</a>
+, <a href="https://routersecurity.org/consumerrouters.php" target="_blank" rel="noopener">consumer router analysis</a>
+, and <a href="https://routersecurity.org/testrouter.php" target="_blank" rel="noopener">testing resources</a>
+ provide unmatched depth on router security topics.</em></p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
