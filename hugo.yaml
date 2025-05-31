@@ -108,6 +108,10 @@ menu:
       name: The Weakest Link
       url: /pages/weakest-link/
       weight: 20
+    - identifier: secure-passwords
+      name: Secure Passwords
+      url: /pages/secure-passwords/
+      weight: 25
     - identifier: tailscale-guide
       name: Tailscale
       url: /pages/tailscale/
