@@ -126,12 +126,20 @@ menu:
       weight: 50
     - identifier: iphone-guide
       name: iPhone
-      url: /pages/iphone/
+      url: /pages/iphone-security/
       weight: 60
+    - identifier: ipad-guide
+      name: iPad
+      url: /pages/ipad-security/
+      weight: 65
     - identifier: mac-guide
       name: Mac
-      url: /pages/mac/
+      url: /pages/mac-security/
       weight: 70
+    - identifier: apple-tv-guide
+      name: Apple TV
+      url: /pages/apple-tv-security/
+      weight: 75
     - identifier: windows-guide
       name: Windows
       url: /pages/windows/
