@@ -477,6 +477,7 @@ For professional users, coordinate with your IT department when implementing the
 **Complete Apple Ecosystem Security:**
 - **[iPhone Security Guide](../iphone/)** - Complete iOS security configuration with Apple Account protection and Apple Watch integration
 - **[Mac Security Guide](../mac/)** - Comprehensive macOS security configuration and privacy setup
+- **[Apple TV Security Guide](../apple-tv/)** - Secure your living room hub with privacy controls and family safety settings
 - **[Secure Passwords Guide](../secure-passwords/)** - Advanced password management and Security Keys implementation
 
 **Professional Workflow Security:**

@@ -14,6 +14,7 @@ Comprehensive guides covering various aspects of digital security, from device p
 - **[iPhone Security Guide](./iphone/)** - Complete iOS security configuration with Apple Account protection using Security Keys
 - **[iPad Security Guide](./ipad/)** - Comprehensive iPadOS security for personal and professional workflows  
 - **[Mac Security Guide](./mac/)** - Full macOS security setup and privacy configuration
+- **[Apple TV Security Guide](./apple-tv/)** - Secure your living room hub with privacy controls and family safety settings
 
 ### Other Platforms
 - **[Windows Security](./windows/)** - Windows security hardening and protection strategies
