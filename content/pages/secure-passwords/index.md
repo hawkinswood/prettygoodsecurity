@@ -219,11 +219,50 @@ When properly secured, passkeys can provide superior security to traditional aut
 
 ### Platform-Specific Considerations
 
-**Apple Ecosystem:**
-- Passkeys sync across devices via iCloud Keychain
-- Security depends on Apple ID protection and device-level security
-- Benefits from hardware security elements in modern Apple devices
-- Consider using hardware keys to protect Apple ID itself
+**Apple Ecosystem: The Gold Standard with Security Keys**
+
+Apple's **Security Keys for Apple Account** feature represents the most secure method available for protecting your Apple ID and the passkeys it syncs across your devices. As Apple states in their [official documentation](https://support.apple.com/en-us/102637), this is "an optional advanced security feature designed for people who want extra protection from targeted attacks, such as phishing or social engineering scams."
+
+**Why Apple Security Keys Are Critical for Passkey Security:**
+- **Ultimate Protection**: Your Apple ID controls access to all synced passkeys across your devices
+- **Phishing Immunity**: Physical security keys cannot be intercepted or replicated by attackers
+- **Eliminates SMS Vulnerabilities**: No risk of SIM swapping or network-level attacks
+- **Superior to Authenticator Apps**: Even compromised devices cannot expose security key credentials
+
+**Apple's Requirements (iOS 16.3+, iPadOS 16.3+, macOS Ventura 13.2+):**
+
+*Essential Prerequisites:*
+- At least two FIDO® Certified security keys that work with your Apple devices
+- Two-factor authentication already enabled on your Apple Account
+- Modern web browser for web-based authentication
+- Compatible software versions on all devices where you're signed in
+
+*Apple's Recommended Security Keys:*
+- **YubiKey 5C NFC**: Works with most Mac and iPhone models (USB-C + NFC)
+- **YubiKey 5Ci**: Works with most Mac and iPhone models (USB-C + Lightning)
+- **FEITIAN ePass K9 NFC USB-A**: Works with older Mac models and most iPhone models
+
+*Connector Compatibility:*
+- **NFC**: Works only with iPhone (tap-based connection)
+- **USB-C**: iPhone 15 or later, most Mac models
+- **Lightning**: iPhone 14 and previous iPhone models
+- **USB-A**: Older Mac models (or newer Macs with USB-C-to-USB-A adapter)
+
+**Critical Security Warnings from Apple:**
+⚠️ **Account Lockout Risk**: "You're responsible for maintaining access to your security keys. If you lose all of your trusted devices and security keys, you could be locked out of your account permanently."
+
+⚠️ **Device Compatibility**: Cannot sign in to older devices that can't be updated to support security keys
+
+⚠️ **Feature Limitations**: Not supported for child Apple IDs, Managed Apple IDs, or Apple Watches paired with family member's iPhone
+
+**Implementation Strategy:**
+1. **Purchase Multiple Keys**: Apple requires minimum 2 keys, supports up to 6
+2. **Geographic Distribution**: Keep keys in different locations (home, work, safety deposit box)
+3. **Test Before Full Deployment**: Verify compatibility with all your Apple devices
+4. **Plan for Device Updates**: Ensure all devices meet minimum software requirements
+
+**Why This Matters for Passkey Security:**
+When you enable Security Keys for Apple Account, you're not just protecting one account—you're securing the entire foundation that protects all your passkeys. Since Apple syncs passkeys through iCloud Keychain, compromising your Apple ID would give attackers access to all your passwordless authentication credentials across every service that supports passkeys.
 
 **Google/Android Ecosystem:**
 - Passkeys sync through Google Password Manager
