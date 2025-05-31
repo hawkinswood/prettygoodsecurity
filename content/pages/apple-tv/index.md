@@ -431,9 +431,9 @@ The investment in proper Apple TV security protects your family's privacy, preve
 ## Related Security Guides
 
 **Complete Apple Ecosystem Security:**
-- **[iPhone Security Guide](../iphone/)** - Comprehensive iOS security configuration and Apple Account protection
-- **[iPad Security Guide](../ipad/)** - Complete iPadOS security for personal and professional workflows
-- **[Mac Security Guide](../mac/)** - Full macOS security setup and privacy configuration
+- **[iPhone Security Guide](../iphone-security/)** - Comprehensive iOS security configuration and Apple Account protection
+- **[iPad Security Guide](../ipad-security/)** - Complete iPadOS security for personal and professional workflows
+- **[Mac Security Guide](../mac-security/)** - Full macOS security setup and privacy configuration
 - **[Secure Passwords Guide](../secure-passwords/)** - Advanced password management and Security Keys implementation
 
 **Network and Infrastructure:**

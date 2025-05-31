@@ -542,9 +542,9 @@ SIP is enabled by default and should remain so. To verify:
 ## Related Security Guides
 
 **Complete Apple Ecosystem Security:**
-- **[iPhone Security Guide](../iphone/)** - Complete iOS security configuration with Apple Account protection and Apple Watch integration
-- **[iPad Security Guide](../ipad/)** - Comprehensive iPadOS security for personal and professional workflows
-- **[Apple TV Security Guide](../apple-tv/)** - Secure your living room hub with privacy controls and family safety settings
+- **[iPhone Security Guide](../iphone-security/)** - Complete iOS security configuration with Apple Account protection and Apple Watch integration
+- **[iPad Security Guide](../ipad-security/)** - Comprehensive iPadOS security for personal and professional workflows
+- **[Apple TV Security Guide](../apple-tv-security/)** - Secure your living room hub with privacy controls and family safety settings
 - **[Secure Passwords Guide](../secure-passwords/)** - Advanced password management and Security Keys implementation
 
 **Network and System Security:**

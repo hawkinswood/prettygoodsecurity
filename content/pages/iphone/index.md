@@ -440,9 +440,9 @@ The investment in proper iPhone and Apple Account security protects not just you
 ## Related Security Guides
 
 **Complete Apple Ecosystem Security:**
-- **[Mac Security Guide](../mac/)** - Comprehensive macOS security configuration and Apple Account protection
-- **[iPad Security Guide](../ipad/)** - Complete iPadOS security for personal and professional workflows
-- **[Apple TV Security Guide](../apple-tv/)** - Secure your living room hub with privacy controls and family safety settings
+- **[Mac Security Guide](../mac-security/)** - Comprehensive macOS security configuration and Apple Account protection
+- **[iPad Security Guide](../ipad-security/)** - Complete iPadOS security for personal and professional workflows
+- **[Apple TV Security Guide](../apple-tv-security/)** - Secure your living room hub with privacy controls and family safety settings
 - **[Secure Passwords Guide](../secure-passwords/)** - Advanced password management and Security Keys implementation
 
 **Network and Infrastructure:**
