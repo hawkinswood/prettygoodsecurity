@@ -437,6 +437,18 @@ The investment in proper iPhone and Apple Account security protects not just you
 
 ---
 
-*This guide is based on official Apple security documentation and recommendations. For the most current information, consult Apple's official security guides and support documentation.*
+## Related Security Guides
 
-*Last updated: May 31, 2025*
+**Complete Apple Ecosystem Security:**
+- **[Mac Security Guide](../mac/)** - Comprehensive macOS security configuration and Apple Account protection
+- **[iPad Security Guide](../ipad/)** - Complete iPadOS security for personal and professional workflows
+- **[Secure Passwords Guide](../secure-passwords/)** - Advanced password management and Security Keys implementation
+
+**Network and Infrastructure:**
+- **[Router Security](../router/)** - Secure your home network foundation for all Apple devices
+- **[Tailscale VPN](../tailscale/)** - Secure remote access for Apple devices and cross-platform connectivity
+
+**Additional Resources:**
+- **[The Weakest Link](../weakest-link/)** - Understanding authentication security and choosing the right protection level
+
+---
